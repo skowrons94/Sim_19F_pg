@@ -1,6 +1,3 @@
-Based on the available information from the repository [Sim_19F_pg](https://github.com/skowrons94/Sim_19F_pg), here is a suggested `README.md` file:
-
-```markdown
 # Sim_19F_pg
 
 This repository contains simulation code related to the study of the \(^{19}\)F(p,γ) reaction. The project includes source code, macros, and scripts to build and run the simulations.
