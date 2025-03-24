@@ -22,12 +22,6 @@ To set up and run the simulation:
    ```
    This script compiles the source code located in the `code/` directory.
 
-2. **Enter the Simulation Environment**:
-   ```bash
-   ./enter.sh
-   ```
-   This script sets up the necessary environment for running the simulation.
-
 3. **Run the Simulation**:
    ```bash
    python run.py
@@ -35,22 +29,6 @@ To set up and run the simulation:
    This Python script executes the simulation using the compiled code and specified macros.
 
 If a newer version of SimLUNA is being used, substitute it in the ```code/``` directory. Additionally, provide a ```data/``` folder as described in the SimLUNA documentation.
-
-## Docker Support
-
-A `Dockerfile` is provided to create a containerized environment for the simulation. This ensures consistency across different systems. To build and run the Docker container:
-
-1. **Build the Docker Image**:
-   ```bash
-   docker build -t simluna .
-   ```
-
-2. **Run the Docker Container**:
-   ```bash
-   docker run -it simluna
-   ```
-
-Inside the container, you can use the provided scripts (`build.sh`, `enter.sh`, `run.py`) to build and run the simulation as described above.
 
 ## Contributing
 
