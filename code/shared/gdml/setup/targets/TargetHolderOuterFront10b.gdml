@@ -1,0 +1,761 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/nfs/luna04/GEANT4/geant4-v11.2.1/source/persistency/gdml/schema/gdml.xsd">
+  <define>
+    <constant name="HALFPI" value="pi/2"/>
+    <constant name="PI" value="1*pi"/>
+    <constant name="TWOPI" value="2*pi"/>
+    <position name="screwy_target_holder_outer_front_0" unit="mm" x="9.192533493041992" y="2.0" z="7.713451385498047"/>
+    <position name="screwy_target_holder_outer_front_1" unit="mm" x="7.713451385498047" y="1.3397459983825684" z="9.192533493041992"/>
+    <position name="screwy_target_holder_outer_front_2" unit="mm" x="7.713451385498047" y="2.0" z="9.192533493041992"/>
+    <position name="screwy_target_holder_outer_front_3" unit="mm" x="9.192533493041992" y="1.3397459983825684" z="7.713451385498047"/>
+    <position name="screwy_target_holder_outer_front_4" unit="mm" x="10.392304420471191" y="2.0" z="6.0"/>
+    <position name="screwy_target_holder_outer_front_5" unit="mm" x="10.392304420471191" y="1.3397459983825684" z="6.0"/>
+    <position name="screwy_target_holder_outer_front_6" unit="mm" x="11.276311874389648" y="2.0" z="4.104241847991943"/>
+    <position name="screwy_target_holder_outer_front_7" unit="mm" x="11.276311874389648" y="1.3397459983825684" z="4.104241847991943"/>
+    <position name="screwy_target_holder_outer_front_8" unit="mm" x="11.817692756652832" y="2.0" z="2.083778142929077"/>
+    <position name="screwy_target_holder_outer_front_9" unit="mm" x="11.817692756652832" y="1.3397459983825684" z="2.083778142929077"/>
+    <position name="screwy_target_holder_outer_front_10" unit="mm" x="12.0" y="2.0" z="-7.347880586115415e-16"/>
+    <position name="screwy_target_holder_outer_front_11" unit="mm" x="12.0" y="1.3397459983825684" z="-2.352064635451675e-14"/>
+    <position name="screwy_target_holder_outer_front_12" unit="mm" x="11.817692756652832" y="2.0" z="-2.083778142929077"/>
+    <position name="screwy_target_holder_outer_front_13" unit="mm" x="11.817692756652832" y="1.3397459983825684" z="-2.083778142929077"/>
+    <position name="screwy_target_holder_outer_front_14" unit="mm" x="11.276311874389648" y="2.0" z="-4.104241847991943"/>
+    <position name="screwy_target_holder_outer_front_15" unit="mm" x="11.276311874389648" y="1.3397459983825684" z="-4.104241847991943"/>
+    <position name="screwy_target_holder_outer_front_16" unit="mm" x="10.392304420471191" y="2.0" z="-6.0"/>
+    <position name="screwy_target_holder_outer_front_17" unit="mm" x="10.392304420471191" y="1.3397459983825684" z="-6.0"/>
+    <position name="screwy_target_holder_outer_front_18" unit="mm" x="9.192533493041992" y="2.0" z="-7.713451385498047"/>
+    <position name="screwy_target_holder_outer_front_19" unit="mm" x="9.192533493041992" y="1.3397459983825684" z="-7.713451385498047"/>
+    <position name="screwy_target_holder_outer_front_20" unit="mm" x="7.713451385498047" y="2.0" z="-9.192533493041992"/>
+    <position name="screwy_target_holder_outer_front_21" unit="mm" x="7.713451385498047" y="1.3397459983825684" z="-9.192533493041992"/>
+    <position name="screwy_target_holder_outer_front_22" unit="mm" x="6.0" y="2.0" z="-10.392304420471191"/>
+    <position name="screwy_target_holder_outer_front_23" unit="mm" x="6.0" y="1.3397459983825684" z="-10.392304420471191"/>
+    <position name="screwy_target_holder_outer_front_24" unit="mm" x="4.104241847991943" y="2.0" z="-11.276311874389648"/>
+    <position name="screwy_target_holder_outer_front_25" unit="mm" x="4.104241847991943" y="1.3397459983825684" z="-11.276311874389648"/>
+    <position name="screwy_target_holder_outer_front_26" unit="mm" x="2.083778142929077" y="2.0" z="-11.817692756652832"/>
+    <position name="screwy_target_holder_outer_front_27" unit="mm" x="2.083778142929077" y="1.3397459983825684" z="-11.817692756652832"/>
+    <position name="screwy_target_holder_outer_front_28" unit="mm" x="11.562936782836914" y="0.0" z="12.461881637573242"/>
+    <position name="screwy_target_holder_outer_front_29" unit="mm" x="14.10684585571289" y="0.0" z="19.41640853881836"/>
+    <position name="screwy_target_holder_outer_front_30" unit="mm" x="9.576440811157227" y="0.0" z="14.046059608459473"/>
+    <position name="screwy_target_holder_outer_front_31" unit="mm" x="11.562088012695312" y="0.0" z="21.031360626220703"/>
+    <position name="screwy_target_holder_outer_front_32" unit="mm" x="7.376023769378662" y="0.0" z="15.316471099853516"/>
+    <position name="screwy_target_holder_outer_front_33" unit="mm" x="8.834989547729492" y="0.0" z="22.31463623046875"/>
+    <position name="screwy_target_holder_outer_front_34" unit="mm" x="5.010838031768799" y="0.0" z="16.24473762512207"/>
+    <position name="screwy_target_holder_outer_front_35" unit="mm" x="5.968557357788086" y="0.0" z="23.245996475219727"/>
+    <position name="screwy_target_holder_outer_front_36" unit="mm" x="2.5337185859680176" y="0.0" z="16.810123443603516"/>
+    <position name="screwy_target_holder_outer_front_37" unit="mm" x="3.007997512817383" y="0.0" z="23.810752868652344"/>
+    <position name="screwy_target_holder_outer_front_38" unit="mm" x="2.0818996229250058e-15" y="0.0" z="17.0"/>
+    <position name="screwy_target_holder_outer_front_39" unit="mm" x="2.939152234446166e-15" y="0.0" z="24.0"/>
+    <position name="screwy_target_holder_outer_front_40" unit="mm" x="-5.010838031768799" y="0.0" z="-16.24473762512207"/>
+    <position name="screwy_target_holder_outer_front_41" unit="mm" x="-5.89768123626709" y="0.6698729991912842" z="-13.24640941619873"/>
+    <position name="screwy_target_holder_outer_front_42" unit="mm" x="-7.376023769378662" y="0.0" z="-15.316471099853516"/>
+    <position name="screwy_target_holder_outer_front_43" unit="mm" x="-8.522886276245117" y="0.6698729991912842" z="-11.730746269226074"/>
+    <position name="screwy_target_holder_outer_front_44" unit="mm" x="-9.576440811157227" y="0.0" z="-14.046059608459473"/>
+    <position name="screwy_target_holder_outer_front_45" unit="mm" x="-11.562936782836914" y="0.0" z="-12.461881637573242"/>
+    <position name="screwy_target_holder_outer_front_46" unit="mm" x="-10.77560043334961" y="0.6698729991912842" z="-9.702393531799316"/>
+    <position name="screwy_target_holder_outer_front_47" unit="mm" x="-13.29113483428955" y="0.0" z="-10.599327087402344"/>
+    <position name="screwy_target_holder_outer_front_48" unit="mm" x="-12.557368278503418" y="0.6698729991912842" z="-7.25"/>
+    <position name="screwy_target_holder_outer_front_49" unit="mm" x="-14.722432136535645" y="0.0" z="-8.5"/>
+    <position name="screwy_target_holder_outer_front_50" unit="mm" x="-15.824853897094727" y="0.0" z="-6.210797309875488"/>
+    <position name="screwy_target_holder_outer_front_51" unit="mm" x="-13.790319442749023" y="0.6698729991912842" z="-4.480746269226074"/>
+    <position name="screwy_target_holder_outer_front_52" unit="mm" x="-16.573774337768555" y="0.0" z="-3.782855987548828"/>
+    <position name="screwy_target_holder_outer_front_53" unit="mm" x="-14.420567512512207" y="0.6698729991912842" z="-1.515662670135498"/>
+    <position name="screwy_target_holder_outer_front_54" unit="mm" x="-11.817692756652832" y="1.3397459983825684" z="-2.083778142929077"/>
+    <position name="screwy_target_holder_outer_front_55" unit="mm" x="-11.276311874389648" y="1.3397459983825684" z="-4.104241847991943"/>
+    <position name="screwy_target_holder_outer_front_56" unit="mm" x="-16.952465057373047" y="0.0" z="-1.2704116106033325"/>
+    <position name="screwy_target_holder_outer_front_57" unit="mm" x="-16.952465057373047" y="0.0" z="1.2704116106033325"/>
+    <position name="screwy_target_holder_outer_front_58" unit="mm" x="-14.420567512512207" y="0.6698729991912842" z="1.515662670135498"/>
+    <position name="screwy_target_holder_outer_front_59" unit="mm" x="-16.573774337768555" y="0.0" z="3.782855987548828"/>
+    <position name="screwy_target_holder_outer_front_60" unit="mm" x="-13.790319442749023" y="0.6698729991912842" z="4.480746269226074"/>
+    <position name="screwy_target_holder_outer_front_61" unit="mm" x="-15.824853897094727" y="0.0" z="6.210797309875488"/>
+    <position name="screwy_target_holder_outer_front_62" unit="mm" x="-12.557368278503418" y="0.6698729991912842" z="7.25"/>
+    <position name="screwy_target_holder_outer_front_63" unit="mm" x="-14.722432136535645" y="0.0" z="8.5"/>
+    <position name="screwy_target_holder_outer_front_64" unit="mm" x="-13.29113483428955" y="0.0" z="10.599327087402344"/>
+    <position name="screwy_target_holder_outer_front_65" unit="mm" x="-10.77560043334961" y="0.6698729991912842" z="9.702393531799316"/>
+    <position name="screwy_target_holder_outer_front_66" unit="mm" x="-11.562936782836914" y="0.0" z="12.461881637573242"/>
+    <position name="screwy_target_holder_outer_front_67" unit="mm" x="-8.522886276245117" y="0.6698729991912842" z="11.730746269226074"/>
+    <position name="screwy_target_holder_outer_front_68" unit="mm" x="-7.713451385498047" y="1.3397459983825684" z="9.192533493041992"/>
+    <position name="screwy_target_holder_outer_front_69" unit="mm" x="-9.192533493041992" y="1.3397459983825684" z="7.713451385498047"/>
+    <position name="screwy_target_holder_outer_front_70" unit="mm" x="-9.576440811157227" y="0.0" z="14.046059608459473"/>
+    <position name="screwy_target_holder_outer_front_71" unit="mm" x="-7.376023769378662" y="0.0" z="15.316471099853516"/>
+    <position name="screwy_target_holder_outer_front_72" unit="mm" x="-5.89768123626709" y="0.6698729991912842" z="13.24640941619873"/>
+    <position name="screwy_target_holder_outer_front_73" unit="mm" x="-6.0" y="1.3397459983825684" z="10.392304420471191"/>
+    <position name="screwy_target_holder_outer_front_74" unit="mm" x="-5.010838031768799" y="0.0" z="16.24473762512207"/>
+    <position name="screwy_target_holder_outer_front_75" unit="mm" x="-3.0147194862365723" y="0.6698729991912842" z="14.18313980102539"/>
+    <position name="screwy_target_holder_outer_front_76" unit="mm" x="-2.5337185859680176" y="0.0" z="16.810123443603516"/>
+    <position name="screwy_target_holder_outer_front_77" unit="mm" x="1.469576117223083e-15" y="1.3397459983825684" z="12.0"/>
+    <position name="screwy_target_holder_outer_front_78" unit="mm" x="-2.083778142929077" y="1.3397459983825684" z="11.817692756652832"/>
+    <position name="screwy_target_holder_outer_front_79" unit="mm" x="-4.104241847991943" y="1.3397459983825684" z="11.276311874389648"/>
+    <position name="screwy_target_holder_outer_front_80" unit="mm" x="-10.392304420471191" y="1.3397459983825684" z="6.0"/>
+    <position name="screwy_target_holder_outer_front_81" unit="mm" x="-11.276311874389648" y="1.3397459983825684" z="4.104241847991943"/>
+    <position name="screwy_target_holder_outer_front_82" unit="mm" x="-11.817692756652832" y="1.3397459983825684" z="2.083778142929077"/>
+    <position name="screwy_target_holder_outer_front_83" unit="mm" x="-12.0" y="1.3397459983825684" z="7.347880586115415e-16"/>
+    <position name="screwy_target_holder_outer_front_84" unit="mm" x="-10.392304420471191" y="1.3397459983825684" z="-6.0"/>
+    <position name="screwy_target_holder_outer_front_85" unit="mm" x="-9.192533493041992" y="1.3397459983825684" z="-7.713451385498047"/>
+    <position name="screwy_target_holder_outer_front_86" unit="mm" x="-7.713451385498047" y="1.3397459983825684" z="-9.192533493041992"/>
+    <position name="screwy_target_holder_outer_front_87" unit="mm" x="-6.0" y="1.3397459983825684" z="-10.392304420471191"/>
+    <position name="screwy_target_holder_outer_front_88" unit="mm" x="-4.104241847991943" y="1.3397459983825684" z="-11.276311874389648"/>
+    <position name="screwy_target_holder_outer_front_89" unit="mm" x="-3.0147194862365723" y="0.6698729991912842" z="-14.18313980102539"/>
+    <position name="screwy_target_holder_outer_front_90" unit="mm" x="-2.083778142929077" y="1.3397459983825684" z="-11.817692756652832"/>
+    <position name="screwy_target_holder_outer_front_91" unit="mm" x="0.0" y="1.3397459983825684" z="-12.0"/>
+    <position name="screwy_target_holder_outer_front_92" unit="mm" x="0.0" y="0.0" z="-17.0"/>
+    <position name="screwy_target_holder_outer_front_93" unit="mm" x="-2.5337185859680176" y="0.0" z="-16.810123443603516"/>
+    <position name="screwy_target_holder_outer_front_94" unit="mm" x="1.469576117223083e-15" y="2.0" z="12.0"/>
+    <position name="screwy_target_holder_outer_front_95" unit="mm" x="-2.083778142929077" y="2.0" z="11.817692756652832"/>
+    <position name="screwy_target_holder_outer_front_96" unit="mm" x="-4.104241847991943" y="2.0" z="11.276311874389648"/>
+    <position name="screwy_target_holder_outer_front_97" unit="mm" x="-6.0" y="2.0" z="10.392304420471191"/>
+    <position name="screwy_target_holder_outer_front_98" unit="mm" x="-7.713451385498047" y="2.0" z="9.192533493041992"/>
+    <position name="screwy_target_holder_outer_front_99" unit="mm" x="-9.192533493041992" y="2.0" z="7.713451385498047"/>
+    <position name="screwy_target_holder_outer_front_100" unit="mm" x="-10.392304420471191" y="2.0" z="6.0"/>
+    <position name="screwy_target_holder_outer_front_101" unit="mm" x="-11.276311874389648" y="2.0" z="4.104241847991943"/>
+    <position name="screwy_target_holder_outer_front_102" unit="mm" x="-11.817692756652832" y="2.0" z="2.083778142929077"/>
+    <position name="screwy_target_holder_outer_front_103" unit="mm" x="-12.0" y="2.0" z="2.352064635451675e-14"/>
+    <position name="screwy_target_holder_outer_front_104" unit="mm" x="-11.817692756652832" y="2.0" z="-2.083778142929077"/>
+    <position name="screwy_target_holder_outer_front_105" unit="mm" x="-11.276311874389648" y="2.0" z="-4.104241847991943"/>
+    <position name="screwy_target_holder_outer_front_106" unit="mm" x="-10.392304420471191" y="2.0" z="-6.0"/>
+    <position name="screwy_target_holder_outer_front_107" unit="mm" x="-9.192533493041992" y="2.0" z="-7.713451385498047"/>
+    <position name="screwy_target_holder_outer_front_108" unit="mm" x="-7.713451385498047" y="2.0" z="-9.192533493041992"/>
+    <position name="screwy_target_holder_outer_front_109" unit="mm" x="-6.0" y="2.0" z="-10.392304420471191"/>
+    <position name="screwy_target_holder_outer_front_110" unit="mm" x="-4.104241847991943" y="2.0" z="-11.276311874389648"/>
+    <position name="screwy_target_holder_outer_front_111" unit="mm" x="-2.083778142929077" y="2.0" z="-11.817692756652832"/>
+    <position name="screwy_target_holder_outer_front_112" unit="mm" x="0.0" y="2.0" z="-12.0"/>
+    <position name="screwy_target_holder_outer_front_113" unit="mm" x="-18.49231719970703" y="0.0" z="-15.298175811767578"/>
+    <position name="screwy_target_holder_outer_front_114" unit="mm" x="3.007997512817383" y="0.0" z="-23.810752868652344"/>
+    <position name="screwy_target_holder_outer_front_115" unit="mm" x="0.0" y="2.0" z="-24.0"/>
+    <position name="screwy_target_holder_outer_front_116" unit="mm" x="3.007997512817383" y="2.0" z="-23.810752868652344"/>
+    <position name="screwy_target_holder_outer_front_117" unit="mm" x="0.0" y="0.0" z="-24.0"/>
+    <position name="screwy_target_holder_outer_front_118" unit="mm" x="5.968557357788086" y="0.0" z="-23.245996475219727"/>
+    <position name="screwy_target_holder_outer_front_119" unit="mm" x="5.968557357788086" y="2.0" z="-23.245996475219727"/>
+    <position name="screwy_target_holder_outer_front_120" unit="mm" x="8.834989547729492" y="0.0" z="-22.31463623046875"/>
+    <position name="screwy_target_holder_outer_front_121" unit="mm" x="8.834989547729492" y="2.0" z="-22.31463623046875"/>
+    <position name="screwy_target_holder_outer_front_122" unit="mm" x="11.562088012695312" y="0.0" z="-21.031360626220703"/>
+    <position name="screwy_target_holder_outer_front_123" unit="mm" x="11.562088012695312" y="2.0" z="-21.031360626220703"/>
+    <position name="screwy_target_holder_outer_front_124" unit="mm" x="14.10684585571289" y="0.0" z="-19.41640853881836"/>
+    <position name="screwy_target_holder_outer_front_125" unit="mm" x="14.10684585571289" y="2.0" z="-19.41640853881836"/>
+    <position name="screwy_target_holder_outer_front_126" unit="mm" x="16.42913055419922" y="0.0" z="-17.49524688720703"/>
+    <position name="screwy_target_holder_outer_front_127" unit="mm" x="16.42913055419922" y="2.0" z="-17.49524688720703"/>
+    <position name="screwy_target_holder_outer_front_128" unit="mm" x="18.49231719970703" y="0.0" z="-15.298175811767578"/>
+    <position name="screwy_target_holder_outer_front_129" unit="mm" x="18.49231719970703" y="2.0" z="-15.298175811767578"/>
+    <position name="screwy_target_holder_outer_front_130" unit="mm" x="20.263870239257812" y="0.0" z="-12.859843254089355"/>
+    <position name="screwy_target_holder_outer_front_131" unit="mm" x="20.263870239257812" y="2.0" z="-12.859843254089355"/>
+    <position name="screwy_target_holder_outer_front_132" unit="mm" x="21.715848922729492" y="0.0" z="-10.218703269958496"/>
+    <position name="screwy_target_holder_outer_front_133" unit="mm" x="21.715848922729492" y="2.0" z="-10.218703269958496"/>
+    <position name="screwy_target_holder_outer_front_134" unit="mm" x="22.825355529785156" y="2.0" z="-7.416408061981201"/>
+    <position name="screwy_target_holder_outer_front_135" unit="mm" x="22.825355529785156" y="0.0" z="-7.416408061981201"/>
+    <position name="screwy_target_holder_outer_front_136" unit="mm" x="23.574893951416016" y="0.0" z="-4.4971513748168945"/>
+    <position name="screwy_target_holder_outer_front_137" unit="mm" x="23.574893951416016" y="2.0" z="-4.4971513748168945"/>
+    <position name="screwy_target_holder_outer_front_138" unit="mm" x="23.952640533447266" y="2.0" z="-1.5069724321365356"/>
+    <position name="screwy_target_holder_outer_front_139" unit="mm" x="23.952640533447266" y="0.0" z="-1.5069724321365356"/>
+    <position name="screwy_target_holder_outer_front_140" unit="mm" x="23.952640533447266" y="0.0" z="1.5069724321365356"/>
+    <position name="screwy_target_holder_outer_front_141" unit="mm" x="23.952640533447266" y="2.0" z="1.5069724321365356"/>
+    <position name="screwy_target_holder_outer_front_142" unit="mm" x="23.574893951416016" y="0.0" z="4.4971513748168945"/>
+    <position name="screwy_target_holder_outer_front_143" unit="mm" x="23.574893951416016" y="2.0" z="4.4971513748168945"/>
+    <position name="screwy_target_holder_outer_front_144" unit="mm" x="22.825355529785156" y="2.0" z="7.416408061981201"/>
+    <position name="screwy_target_holder_outer_front_145" unit="mm" x="22.825355529785156" y="0.0" z="7.416408061981201"/>
+    <position name="screwy_target_holder_outer_front_146" unit="mm" x="21.715848922729492" y="2.0" z="10.218703269958496"/>
+    <position name="screwy_target_holder_outer_front_147" unit="mm" x="21.715848922729492" y="0.0" z="10.218703269958496"/>
+    <position name="screwy_target_holder_outer_front_148" unit="mm" x="20.263870239257812" y="2.0" z="12.859843254089355"/>
+    <position name="screwy_target_holder_outer_front_149" unit="mm" x="20.263870239257812" y="0.0" z="12.859843254089355"/>
+    <position name="screwy_target_holder_outer_front_150" unit="mm" x="18.49231719970703" y="0.0" z="15.298175811767578"/>
+    <position name="screwy_target_holder_outer_front_151" unit="mm" x="18.49231719970703" y="2.0" z="15.298175811767578"/>
+    <position name="screwy_target_holder_outer_front_152" unit="mm" x="16.42913055419922" y="2.0" z="17.49524688720703"/>
+    <position name="screwy_target_holder_outer_front_153" unit="mm" x="16.42913055419922" y="0.0" z="17.49524688720703"/>
+    <position name="screwy_target_holder_outer_front_154" unit="mm" x="14.10684585571289" y="2.0" z="19.41640853881836"/>
+    <position name="screwy_target_holder_outer_front_155" unit="mm" x="11.562088012695312" y="2.0" z="21.031360626220703"/>
+    <position name="screwy_target_holder_outer_front_156" unit="mm" x="8.834989547729492" y="2.0" z="22.31463623046875"/>
+    <position name="screwy_target_holder_outer_front_157" unit="mm" x="5.968557357788086" y="2.0" z="23.245996475219727"/>
+    <position name="screwy_target_holder_outer_front_158" unit="mm" x="3.007997512817383" y="2.0" z="23.810752868652344"/>
+    <position name="screwy_target_holder_outer_front_159" unit="mm" x="2.939152234446166e-15" y="2.0" z="24.0"/>
+    <position name="screwy_target_holder_outer_front_160" unit="mm" x="-3.007997512817383" y="0.0" z="23.810752868652344"/>
+    <position name="screwy_target_holder_outer_front_161" unit="mm" x="-3.007997512817383" y="2.0" z="23.810752868652344"/>
+    <position name="screwy_target_holder_outer_front_162" unit="mm" x="-5.968557357788086" y="0.0" z="23.245996475219727"/>
+    <position name="screwy_target_holder_outer_front_163" unit="mm" x="-5.968557357788086" y="2.0" z="23.245996475219727"/>
+    <position name="screwy_target_holder_outer_front_164" unit="mm" x="-8.834989547729492" y="0.0" z="22.31463623046875"/>
+    <position name="screwy_target_holder_outer_front_165" unit="mm" x="-8.834989547729492" y="2.0" z="22.31463623046875"/>
+    <position name="screwy_target_holder_outer_front_166" unit="mm" x="-11.562088012695312" y="2.0" z="21.031360626220703"/>
+    <position name="screwy_target_holder_outer_front_167" unit="mm" x="-11.562088012695312" y="0.0" z="21.031360626220703"/>
+    <position name="screwy_target_holder_outer_front_168" unit="mm" x="-14.10684585571289" y="0.0" z="19.41640853881836"/>
+    <position name="screwy_target_holder_outer_front_169" unit="mm" x="-14.10684585571289" y="2.0" z="19.41640853881836"/>
+    <position name="screwy_target_holder_outer_front_170" unit="mm" x="-16.42913055419922" y="0.0" z="17.49524688720703"/>
+    <position name="screwy_target_holder_outer_front_171" unit="mm" x="-16.42913055419922" y="2.0" z="17.49524688720703"/>
+    <position name="screwy_target_holder_outer_front_172" unit="mm" x="-18.49231719970703" y="0.0" z="15.298175811767578"/>
+    <position name="screwy_target_holder_outer_front_173" unit="mm" x="-18.49231719970703" y="2.0" z="15.298175811767578"/>
+    <position name="screwy_target_holder_outer_front_174" unit="mm" x="-20.263870239257812" y="0.0" z="12.859843254089355"/>
+    <position name="screwy_target_holder_outer_front_175" unit="mm" x="-20.263870239257812" y="2.0" z="12.859843254089355"/>
+    <position name="screwy_target_holder_outer_front_176" unit="mm" x="-21.715848922729492" y="0.0" z="10.218703269958496"/>
+    <position name="screwy_target_holder_outer_front_177" unit="mm" x="-21.715848922729492" y="2.0" z="10.218703269958496"/>
+    <position name="screwy_target_holder_outer_front_178" unit="mm" x="-22.825355529785156" y="0.0" z="7.416408061981201"/>
+    <position name="screwy_target_holder_outer_front_179" unit="mm" x="-22.825355529785156" y="2.0" z="7.416408061981201"/>
+    <position name="screwy_target_holder_outer_front_180" unit="mm" x="-23.574893951416016" y="0.0" z="4.4971513748168945"/>
+    <position name="screwy_target_holder_outer_front_181" unit="mm" x="-23.574893951416016" y="2.0" z="4.4971513748168945"/>
+    <position name="screwy_target_holder_outer_front_182" unit="mm" x="-23.952640533447266" y="0.0" z="1.5069724321365356"/>
+    <position name="screwy_target_holder_outer_front_183" unit="mm" x="-23.952640533447266" y="2.0" z="1.5069724321365356"/>
+    <position name="screwy_target_holder_outer_front_184" unit="mm" x="-23.952640533447266" y="2.0" z="-1.5069724321365356"/>
+    <position name="screwy_target_holder_outer_front_185" unit="mm" x="-23.952640533447266" y="0.0" z="-1.5069724321365356"/>
+    <position name="screwy_target_holder_outer_front_186" unit="mm" x="-23.574893951416016" y="0.0" z="-4.4971513748168945"/>
+    <position name="screwy_target_holder_outer_front_187" unit="mm" x="-23.574893951416016" y="2.0" z="-4.4971513748168945"/>
+    <position name="screwy_target_holder_outer_front_188" unit="mm" x="-22.825355529785156" y="0.0" z="-7.416408061981201"/>
+    <position name="screwy_target_holder_outer_front_189" unit="mm" x="-22.825355529785156" y="2.0" z="-7.416408061981201"/>
+    <position name="screwy_target_holder_outer_front_190" unit="mm" x="-21.715848922729492" y="2.0" z="-10.218703269958496"/>
+    <position name="screwy_target_holder_outer_front_191" unit="mm" x="-21.715848922729492" y="0.0" z="-10.218703269958496"/>
+    <position name="screwy_target_holder_outer_front_192" unit="mm" x="-20.263870239257812" y="0.0" z="-12.859843254089355"/>
+    <position name="screwy_target_holder_outer_front_193" unit="mm" x="-20.263870239257812" y="2.0" z="-12.859843254089355"/>
+    <position name="screwy_target_holder_outer_front_194" unit="mm" x="-18.49231719970703" y="2.0" z="-15.298175811767578"/>
+    <position name="screwy_target_holder_outer_front_195" unit="mm" x="-16.42913055419922" y="2.0" z="-17.49524688720703"/>
+    <position name="screwy_target_holder_outer_front_196" unit="mm" x="-16.42913055419922" y="0.0" z="-17.49524688720703"/>
+    <position name="screwy_target_holder_outer_front_197" unit="mm" x="-14.10684585571289" y="0.0" z="-19.41640853881836"/>
+    <position name="screwy_target_holder_outer_front_198" unit="mm" x="-14.10684585571289" y="2.0" z="-19.41640853881836"/>
+    <position name="screwy_target_holder_outer_front_199" unit="mm" x="-11.562088012695312" y="0.0" z="-21.031360626220703"/>
+    <position name="screwy_target_holder_outer_front_200" unit="mm" x="-11.562088012695312" y="2.0" z="-21.031360626220703"/>
+    <position name="screwy_target_holder_outer_front_201" unit="mm" x="-8.834989547729492" y="0.0" z="-22.31463623046875"/>
+    <position name="screwy_target_holder_outer_front_202" unit="mm" x="-8.834989547729492" y="2.0" z="-22.31463623046875"/>
+    <position name="screwy_target_holder_outer_front_203" unit="mm" x="-5.968557357788086" y="2.0" z="-23.245996475219727"/>
+    <position name="screwy_target_holder_outer_front_204" unit="mm" x="-5.968557357788086" y="0.0" z="-23.245996475219727"/>
+    <position name="screwy_target_holder_outer_front_205" unit="mm" x="-3.007997512817383" y="0.0" z="-23.810752868652344"/>
+    <position name="screwy_target_holder_outer_front_206" unit="mm" x="-3.007997512817383" y="2.0" z="-23.810752868652344"/>
+    <position name="screwy_target_holder_outer_front_207" unit="mm" x="2.5337185859680176" y="0.0" z="-16.810123443603516"/>
+    <position name="screwy_target_holder_outer_front_208" unit="mm" x="5.010838031768799" y="0.0" z="-16.24473762512207"/>
+    <position name="screwy_target_holder_outer_front_209" unit="mm" x="7.376023769378662" y="0.0" z="-15.316471099853516"/>
+    <position name="screwy_target_holder_outer_front_210" unit="mm" x="9.576440811157227" y="0.0" z="-14.046059608459473"/>
+    <position name="screwy_target_holder_outer_front_211" unit="mm" x="11.562936782836914" y="0.0" z="-12.461881637573242"/>
+    <position name="screwy_target_holder_outer_front_212" unit="mm" x="13.29113483428955" y="0.0" z="-10.599327087402344"/>
+    <position name="screwy_target_holder_outer_front_213" unit="mm" x="14.722432136535645" y="0.0" z="-8.5"/>
+    <position name="screwy_target_holder_outer_front_214" unit="mm" x="15.824853897094727" y="0.0" z="-6.210797309875488"/>
+    <position name="screwy_target_holder_outer_front_215" unit="mm" x="16.573774337768555" y="0.0" z="-3.782855987548828"/>
+    <position name="screwy_target_holder_outer_front_216" unit="mm" x="16.952465057373047" y="0.0" z="-1.2704116106033325"/>
+    <position name="screwy_target_holder_outer_front_217" unit="mm" x="16.952465057373047" y="0.0" z="1.2704116106033325"/>
+    <position name="screwy_target_holder_outer_front_218" unit="mm" x="16.573774337768555" y="0.0" z="3.782855987548828"/>
+    <position name="screwy_target_holder_outer_front_219" unit="mm" x="15.824853897094727" y="0.0" z="6.210797309875488"/>
+    <position name="screwy_target_holder_outer_front_220" unit="mm" x="14.722432136535645" y="0.0" z="8.5"/>
+    <position name="screwy_target_holder_outer_front_221" unit="mm" x="13.29113483428955" y="0.0" z="10.599327087402344"/>
+    <position name="screwy_target_holder_outer_front_222" unit="mm" x="6.0" y="1.3397459983825684" z="10.392304420471191"/>
+    <position name="screwy_target_holder_outer_front_223" unit="mm" x="6.0" y="2.0" z="10.392304420471191"/>
+    <position name="screwy_target_holder_outer_front_224" unit="mm" x="4.104241847991943" y="1.3397459983825684" z="11.276311874389648"/>
+    <position name="screwy_target_holder_outer_front_225" unit="mm" x="4.104241847991943" y="2.0" z="11.276311874389648"/>
+    <position name="screwy_target_holder_outer_front_226" unit="mm" x="2.083778142929077" y="1.3397459983825684" z="11.817692756652832"/>
+    <position name="screwy_target_holder_outer_front_227" unit="mm" x="2.083778142929077" y="2.0" z="11.817692756652832"/>
+    <position name="screwy_target_holder_outer_front_228" unit="mm" x="3.0147194862365723" y="0.6698729991912842" z="-14.18313980102539"/>
+    <position name="screwy_target_holder_outer_front_229" unit="mm" x="5.89768123626709" y="0.6698729991912842" z="-13.24640941619873"/>
+    <position name="screwy_target_holder_outer_front_230" unit="mm" x="8.522886276245117" y="0.6698729991912842" z="-11.730746269226074"/>
+    <position name="screwy_target_holder_outer_front_231" unit="mm" x="10.77560043334961" y="0.6698729991912842" z="-9.702393531799316"/>
+    <position name="screwy_target_holder_outer_front_232" unit="mm" x="12.557368278503418" y="0.6698729991912842" z="-7.25"/>
+    <position name="screwy_target_holder_outer_front_233" unit="mm" x="13.790319442749023" y="0.6698729991912842" z="-4.480746269226074"/>
+    <position name="screwy_target_holder_outer_front_234" unit="mm" x="14.420567512512207" y="0.6698729991912842" z="-1.515662670135498"/>
+    <position name="screwy_target_holder_outer_front_235" unit="mm" x="14.420567512512207" y="0.6698729991912842" z="1.515662670135498"/>
+    <position name="screwy_target_holder_outer_front_236" unit="mm" x="13.790319442749023" y="0.6698729991912842" z="4.480746269226074"/>
+    <position name="screwy_target_holder_outer_front_237" unit="mm" x="12.557368278503418" y="0.6698729991912842" z="7.25"/>
+    <position name="screwy_target_holder_outer_front_238" unit="mm" x="10.77560043334961" y="0.6698729991912842" z="9.702393531799316"/>
+    <position name="screwy_target_holder_outer_front_239" unit="mm" x="8.522886276245117" y="0.6698729991912842" z="11.730746269226074"/>
+    <position name="screwy_target_holder_outer_front_240" unit="mm" x="5.89768123626709" y="0.6698729991912842" z="13.24640941619873"/>
+    <position name="screwy_target_holder_outer_front_241" unit="mm" x="3.0147194862365723" y="0.6698729991912842" z="14.18313980102539"/>
+    <position name="center" x="0" y="0" z="0" unit="mm"/>
+    <rotation name="identity" x="0" y="0" z="0"/>
+  </define>
+  <materials/>
+  <solids>
+    <box name="WorldBox" x="100.0" y="100.0" z="100.0" lunit="mm"/>
+    <tessellated name="screwy_target_holder_outer_front">
+      <triangular vertex1="screwy_target_holder_outer_front_0" vertex2="screwy_target_holder_outer_front_1" vertex3="screwy_target_holder_outer_front_2" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_3" vertex2="screwy_target_holder_outer_front_1" vertex3="screwy_target_holder_outer_front_0" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_4" vertex2="screwy_target_holder_outer_front_3" vertex3="screwy_target_holder_outer_front_0" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_5" vertex2="screwy_target_holder_outer_front_3" vertex3="screwy_target_holder_outer_front_4" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_6" vertex2="screwy_target_holder_outer_front_5" vertex3="screwy_target_holder_outer_front_4" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_7" vertex2="screwy_target_holder_outer_front_5" vertex3="screwy_target_holder_outer_front_6" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_8" vertex2="screwy_target_holder_outer_front_7" vertex3="screwy_target_holder_outer_front_6" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_9" vertex2="screwy_target_holder_outer_front_7" vertex3="screwy_target_holder_outer_front_8" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_10" vertex2="screwy_target_holder_outer_front_9" vertex3="screwy_target_holder_outer_front_8" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_11" vertex2="screwy_target_holder_outer_front_9" vertex3="screwy_target_holder_outer_front_10" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_12" vertex2="screwy_target_holder_outer_front_11" vertex3="screwy_target_holder_outer_front_10" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_13" vertex2="screwy_target_holder_outer_front_11" vertex3="screwy_target_holder_outer_front_12" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_14" vertex2="screwy_target_holder_outer_front_13" vertex3="screwy_target_holder_outer_front_12" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_15" vertex2="screwy_target_holder_outer_front_13" vertex3="screwy_target_holder_outer_front_14" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_16" vertex2="screwy_target_holder_outer_front_15" vertex3="screwy_target_holder_outer_front_14" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_17" vertex2="screwy_target_holder_outer_front_15" vertex3="screwy_target_holder_outer_front_16" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_18" vertex2="screwy_target_holder_outer_front_17" vertex3="screwy_target_holder_outer_front_16" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_19" vertex2="screwy_target_holder_outer_front_17" vertex3="screwy_target_holder_outer_front_18" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_20" vertex2="screwy_target_holder_outer_front_19" vertex3="screwy_target_holder_outer_front_18" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_21" vertex2="screwy_target_holder_outer_front_19" vertex3="screwy_target_holder_outer_front_20" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_22" vertex2="screwy_target_holder_outer_front_21" vertex3="screwy_target_holder_outer_front_20" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_23" vertex2="screwy_target_holder_outer_front_21" vertex3="screwy_target_holder_outer_front_22" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_24" vertex2="screwy_target_holder_outer_front_23" vertex3="screwy_target_holder_outer_front_22" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_25" vertex2="screwy_target_holder_outer_front_23" vertex3="screwy_target_holder_outer_front_24" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_26" vertex2="screwy_target_holder_outer_front_25" vertex3="screwy_target_holder_outer_front_24" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_27" vertex2="screwy_target_holder_outer_front_25" vertex3="screwy_target_holder_outer_front_26" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_28" vertex2="screwy_target_holder_outer_front_29" vertex3="screwy_target_holder_outer_front_30" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_30" vertex2="screwy_target_holder_outer_front_29" vertex3="screwy_target_holder_outer_front_31" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_30" vertex2="screwy_target_holder_outer_front_31" vertex3="screwy_target_holder_outer_front_32" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_32" vertex2="screwy_target_holder_outer_front_31" vertex3="screwy_target_holder_outer_front_33" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_32" vertex2="screwy_target_holder_outer_front_33" vertex3="screwy_target_holder_outer_front_34" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_34" vertex2="screwy_target_holder_outer_front_33" vertex3="screwy_target_holder_outer_front_35" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_34" vertex2="screwy_target_holder_outer_front_35" vertex3="screwy_target_holder_outer_front_36" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_36" vertex2="screwy_target_holder_outer_front_35" vertex3="screwy_target_holder_outer_front_37" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_36" vertex2="screwy_target_holder_outer_front_37" vertex3="screwy_target_holder_outer_front_38" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_38" vertex2="screwy_target_holder_outer_front_37" vertex3="screwy_target_holder_outer_front_39" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_40" vertex2="screwy_target_holder_outer_front_41" vertex3="screwy_target_holder_outer_front_42" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_42" vertex2="screwy_target_holder_outer_front_41" vertex3="screwy_target_holder_outer_front_43" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_42" vertex2="screwy_target_holder_outer_front_43" vertex3="screwy_target_holder_outer_front_44" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_44" vertex2="screwy_target_holder_outer_front_43" vertex3="screwy_target_holder_outer_front_45" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_45" vertex2="screwy_target_holder_outer_front_43" vertex3="screwy_target_holder_outer_front_46" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_45" vertex2="screwy_target_holder_outer_front_46" vertex3="screwy_target_holder_outer_front_47" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_47" vertex2="screwy_target_holder_outer_front_46" vertex3="screwy_target_holder_outer_front_48" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_47" vertex2="screwy_target_holder_outer_front_48" vertex3="screwy_target_holder_outer_front_49" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_49" vertex2="screwy_target_holder_outer_front_48" vertex3="screwy_target_holder_outer_front_50" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_50" vertex2="screwy_target_holder_outer_front_48" vertex3="screwy_target_holder_outer_front_51" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_50" vertex2="screwy_target_holder_outer_front_51" vertex3="screwy_target_holder_outer_front_52" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_52" vertex2="screwy_target_holder_outer_front_51" vertex3="screwy_target_holder_outer_front_53" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_54" vertex2="screwy_target_holder_outer_front_51" vertex3="screwy_target_holder_outer_front_55" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_53" vertex2="screwy_target_holder_outer_front_51" vertex3="screwy_target_holder_outer_front_54" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_52" vertex2="screwy_target_holder_outer_front_53" vertex3="screwy_target_holder_outer_front_56" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_56" vertex2="screwy_target_holder_outer_front_53" vertex3="screwy_target_holder_outer_front_57" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_57" vertex2="screwy_target_holder_outer_front_53" vertex3="screwy_target_holder_outer_front_58" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_59" vertex2="screwy_target_holder_outer_front_60" vertex3="screwy_target_holder_outer_front_61" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_61" vertex2="screwy_target_holder_outer_front_60" vertex3="screwy_target_holder_outer_front_62" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_61" vertex2="screwy_target_holder_outer_front_62" vertex3="screwy_target_holder_outer_front_63" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_63" vertex2="screwy_target_holder_outer_front_62" vertex3="screwy_target_holder_outer_front_64" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_64" vertex2="screwy_target_holder_outer_front_62" vertex3="screwy_target_holder_outer_front_65" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_64" vertex2="screwy_target_holder_outer_front_65" vertex3="screwy_target_holder_outer_front_66" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_66" vertex2="screwy_target_holder_outer_front_65" vertex3="screwy_target_holder_outer_front_67" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_68" vertex2="screwy_target_holder_outer_front_65" vertex3="screwy_target_holder_outer_front_69" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_67" vertex2="screwy_target_holder_outer_front_65" vertex3="screwy_target_holder_outer_front_68" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_66" vertex2="screwy_target_holder_outer_front_67" vertex3="screwy_target_holder_outer_front_70" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_70" vertex2="screwy_target_holder_outer_front_67" vertex3="screwy_target_holder_outer_front_71" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_71" vertex2="screwy_target_holder_outer_front_67" vertex3="screwy_target_holder_outer_front_72" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_73" vertex2="screwy_target_holder_outer_front_67" vertex3="screwy_target_holder_outer_front_68" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_72" vertex2="screwy_target_holder_outer_front_67" vertex3="screwy_target_holder_outer_front_73" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_74" vertex2="screwy_target_holder_outer_front_75" vertex3="screwy_target_holder_outer_front_76" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_76" vertex2="screwy_target_holder_outer_front_75" vertex3="screwy_target_holder_outer_front_38" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_38" vertex2="screwy_target_holder_outer_front_75" vertex3="screwy_target_holder_outer_front_77" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_77" vertex2="screwy_target_holder_outer_front_75" vertex3="screwy_target_holder_outer_front_78" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_78" vertex2="screwy_target_holder_outer_front_75" vertex3="screwy_target_holder_outer_front_79" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_75" vertex2="screwy_target_holder_outer_front_72" vertex3="screwy_target_holder_outer_front_79" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_74" vertex2="screwy_target_holder_outer_front_72" vertex3="screwy_target_holder_outer_front_75" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_71" vertex2="screwy_target_holder_outer_front_72" vertex3="screwy_target_holder_outer_front_74" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_79" vertex2="screwy_target_holder_outer_front_72" vertex3="screwy_target_holder_outer_front_73" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_65" vertex2="screwy_target_holder_outer_front_62" vertex3="screwy_target_holder_outer_front_69" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_69" vertex2="screwy_target_holder_outer_front_62" vertex3="screwy_target_holder_outer_front_80" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_80" vertex2="screwy_target_holder_outer_front_62" vertex3="screwy_target_holder_outer_front_81" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_62" vertex2="screwy_target_holder_outer_front_60" vertex3="screwy_target_holder_outer_front_81" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_81" vertex2="screwy_target_holder_outer_front_60" vertex3="screwy_target_holder_outer_front_82" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_59" vertex2="screwy_target_holder_outer_front_58" vertex3="screwy_target_holder_outer_front_60" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_57" vertex2="screwy_target_holder_outer_front_58" vertex3="screwy_target_holder_outer_front_59" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_60" vertex2="screwy_target_holder_outer_front_58" vertex3="screwy_target_holder_outer_front_82" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_82" vertex2="screwy_target_holder_outer_front_58" vertex3="screwy_target_holder_outer_front_83" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_58" vertex2="screwy_target_holder_outer_front_53" vertex3="screwy_target_holder_outer_front_83" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_83" vertex2="screwy_target_holder_outer_front_53" vertex3="screwy_target_holder_outer_front_54" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_51" vertex2="screwy_target_holder_outer_front_48" vertex3="screwy_target_holder_outer_front_55" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_55" vertex2="screwy_target_holder_outer_front_48" vertex3="screwy_target_holder_outer_front_84" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_84" vertex2="screwy_target_holder_outer_front_48" vertex3="screwy_target_holder_outer_front_85" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_48" vertex2="screwy_target_holder_outer_front_46" vertex3="screwy_target_holder_outer_front_85" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_85" vertex2="screwy_target_holder_outer_front_46" vertex3="screwy_target_holder_outer_front_86" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_46" vertex2="screwy_target_holder_outer_front_43" vertex3="screwy_target_holder_outer_front_86" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_86" vertex2="screwy_target_holder_outer_front_43" vertex3="screwy_target_holder_outer_front_87" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_43" vertex2="screwy_target_holder_outer_front_41" vertex3="screwy_target_holder_outer_front_87" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_87" vertex2="screwy_target_holder_outer_front_41" vertex3="screwy_target_holder_outer_front_88" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_41" vertex2="screwy_target_holder_outer_front_89" vertex3="screwy_target_holder_outer_front_88" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_88" vertex2="screwy_target_holder_outer_front_89" vertex3="screwy_target_holder_outer_front_90" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_90" vertex2="screwy_target_holder_outer_front_89" vertex3="screwy_target_holder_outer_front_91" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_91" vertex2="screwy_target_holder_outer_front_89" vertex3="screwy_target_holder_outer_front_92" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_92" vertex2="screwy_target_holder_outer_front_89" vertex3="screwy_target_holder_outer_front_93" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_93" vertex2="screwy_target_holder_outer_front_89" vertex3="screwy_target_holder_outer_front_40" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_40" vertex2="screwy_target_holder_outer_front_89" vertex3="screwy_target_holder_outer_front_41" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_77" vertex2="screwy_target_holder_outer_front_78" vertex3="screwy_target_holder_outer_front_94" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_94" vertex2="screwy_target_holder_outer_front_78" vertex3="screwy_target_holder_outer_front_95" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_95" vertex2="screwy_target_holder_outer_front_78" vertex3="screwy_target_holder_outer_front_96" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_78" vertex2="screwy_target_holder_outer_front_79" vertex3="screwy_target_holder_outer_front_96" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_96" vertex2="screwy_target_holder_outer_front_79" vertex3="screwy_target_holder_outer_front_97" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_79" vertex2="screwy_target_holder_outer_front_73" vertex3="screwy_target_holder_outer_front_97" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_97" vertex2="screwy_target_holder_outer_front_73" vertex3="screwy_target_holder_outer_front_98" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_73" vertex2="screwy_target_holder_outer_front_68" vertex3="screwy_target_holder_outer_front_98" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_98" vertex2="screwy_target_holder_outer_front_68" vertex3="screwy_target_holder_outer_front_99" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_68" vertex2="screwy_target_holder_outer_front_69" vertex3="screwy_target_holder_outer_front_99" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_99" vertex2="screwy_target_holder_outer_front_69" vertex3="screwy_target_holder_outer_front_100" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_69" vertex2="screwy_target_holder_outer_front_80" vertex3="screwy_target_holder_outer_front_100" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_100" vertex2="screwy_target_holder_outer_front_80" vertex3="screwy_target_holder_outer_front_101" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_80" vertex2="screwy_target_holder_outer_front_81" vertex3="screwy_target_holder_outer_front_101" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_101" vertex2="screwy_target_holder_outer_front_81" vertex3="screwy_target_holder_outer_front_102" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_81" vertex2="screwy_target_holder_outer_front_82" vertex3="screwy_target_holder_outer_front_102" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_102" vertex2="screwy_target_holder_outer_front_82" vertex3="screwy_target_holder_outer_front_103" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_82" vertex2="screwy_target_holder_outer_front_83" vertex3="screwy_target_holder_outer_front_103" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_103" vertex2="screwy_target_holder_outer_front_83" vertex3="screwy_target_holder_outer_front_104" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_83" vertex2="screwy_target_holder_outer_front_54" vertex3="screwy_target_holder_outer_front_104" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_104" vertex2="screwy_target_holder_outer_front_54" vertex3="screwy_target_holder_outer_front_105" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_54" vertex2="screwy_target_holder_outer_front_55" vertex3="screwy_target_holder_outer_front_105" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_105" vertex2="screwy_target_holder_outer_front_55" vertex3="screwy_target_holder_outer_front_106" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_55" vertex2="screwy_target_holder_outer_front_84" vertex3="screwy_target_holder_outer_front_106" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_84" vertex2="screwy_target_holder_outer_front_85" vertex3="screwy_target_holder_outer_front_106" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_106" vertex2="screwy_target_holder_outer_front_85" vertex3="screwy_target_holder_outer_front_107" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_85" vertex2="screwy_target_holder_outer_front_86" vertex3="screwy_target_holder_outer_front_107" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_107" vertex2="screwy_target_holder_outer_front_86" vertex3="screwy_target_holder_outer_front_108" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_108" vertex2="screwy_target_holder_outer_front_86" vertex3="screwy_target_holder_outer_front_109" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_86" vertex2="screwy_target_holder_outer_front_87" vertex3="screwy_target_holder_outer_front_109" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_87" vertex2="screwy_target_holder_outer_front_88" vertex3="screwy_target_holder_outer_front_109" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_109" vertex2="screwy_target_holder_outer_front_88" vertex3="screwy_target_holder_outer_front_110" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_110" vertex2="screwy_target_holder_outer_front_88" vertex3="screwy_target_holder_outer_front_111" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_88" vertex2="screwy_target_holder_outer_front_90" vertex3="screwy_target_holder_outer_front_111" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_90" vertex2="screwy_target_holder_outer_front_91" vertex3="screwy_target_holder_outer_front_111" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_111" vertex2="screwy_target_holder_outer_front_91" vertex3="screwy_target_holder_outer_front_112" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_45" vertex2="screwy_target_holder_outer_front_47" vertex3="screwy_target_holder_outer_front_113" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_114" vertex2="screwy_target_holder_outer_front_115" vertex3="screwy_target_holder_outer_front_116" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_114" vertex2="screwy_target_holder_outer_front_117" vertex3="screwy_target_holder_outer_front_115" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_118" vertex2="screwy_target_holder_outer_front_114" vertex3="screwy_target_holder_outer_front_116" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_118" vertex2="screwy_target_holder_outer_front_116" vertex3="screwy_target_holder_outer_front_119" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_120" vertex2="screwy_target_holder_outer_front_118" vertex3="screwy_target_holder_outer_front_119" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_120" vertex2="screwy_target_holder_outer_front_119" vertex3="screwy_target_holder_outer_front_121" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_122" vertex2="screwy_target_holder_outer_front_120" vertex3="screwy_target_holder_outer_front_121" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_122" vertex2="screwy_target_holder_outer_front_121" vertex3="screwy_target_holder_outer_front_123" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_124" vertex2="screwy_target_holder_outer_front_122" vertex3="screwy_target_holder_outer_front_123" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_124" vertex2="screwy_target_holder_outer_front_123" vertex3="screwy_target_holder_outer_front_125" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_126" vertex2="screwy_target_holder_outer_front_124" vertex3="screwy_target_holder_outer_front_125" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_126" vertex2="screwy_target_holder_outer_front_125" vertex3="screwy_target_holder_outer_front_127" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_128" vertex2="screwy_target_holder_outer_front_126" vertex3="screwy_target_holder_outer_front_127" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_128" vertex2="screwy_target_holder_outer_front_127" vertex3="screwy_target_holder_outer_front_129" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_130" vertex2="screwy_target_holder_outer_front_128" vertex3="screwy_target_holder_outer_front_129" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_130" vertex2="screwy_target_holder_outer_front_129" vertex3="screwy_target_holder_outer_front_131" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_132" vertex2="screwy_target_holder_outer_front_130" vertex3="screwy_target_holder_outer_front_131" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_132" vertex2="screwy_target_holder_outer_front_131" vertex3="screwy_target_holder_outer_front_133" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_132" vertex2="screwy_target_holder_outer_front_133" vertex3="screwy_target_holder_outer_front_134" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_135" vertex2="screwy_target_holder_outer_front_132" vertex3="screwy_target_holder_outer_front_134" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_136" vertex2="screwy_target_holder_outer_front_135" vertex3="screwy_target_holder_outer_front_134" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_136" vertex2="screwy_target_holder_outer_front_134" vertex3="screwy_target_holder_outer_front_137" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_136" vertex2="screwy_target_holder_outer_front_137" vertex3="screwy_target_holder_outer_front_138" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_139" vertex2="screwy_target_holder_outer_front_136" vertex3="screwy_target_holder_outer_front_138" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_140" vertex2="screwy_target_holder_outer_front_139" vertex3="screwy_target_holder_outer_front_138" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_140" vertex2="screwy_target_holder_outer_front_138" vertex3="screwy_target_holder_outer_front_141" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_142" vertex2="screwy_target_holder_outer_front_140" vertex3="screwy_target_holder_outer_front_141" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_142" vertex2="screwy_target_holder_outer_front_141" vertex3="screwy_target_holder_outer_front_143" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_142" vertex2="screwy_target_holder_outer_front_143" vertex3="screwy_target_holder_outer_front_144" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_145" vertex2="screwy_target_holder_outer_front_142" vertex3="screwy_target_holder_outer_front_144" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_145" vertex2="screwy_target_holder_outer_front_144" vertex3="screwy_target_holder_outer_front_146" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_147" vertex2="screwy_target_holder_outer_front_145" vertex3="screwy_target_holder_outer_front_146" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_147" vertex2="screwy_target_holder_outer_front_146" vertex3="screwy_target_holder_outer_front_148" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_149" vertex2="screwy_target_holder_outer_front_147" vertex3="screwy_target_holder_outer_front_148" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_150" vertex2="screwy_target_holder_outer_front_149" vertex3="screwy_target_holder_outer_front_148" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_150" vertex2="screwy_target_holder_outer_front_148" vertex3="screwy_target_holder_outer_front_151" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_150" vertex2="screwy_target_holder_outer_front_151" vertex3="screwy_target_holder_outer_front_152" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_153" vertex2="screwy_target_holder_outer_front_150" vertex3="screwy_target_holder_outer_front_152" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_153" vertex2="screwy_target_holder_outer_front_152" vertex3="screwy_target_holder_outer_front_154" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_29" vertex2="screwy_target_holder_outer_front_153" vertex3="screwy_target_holder_outer_front_154" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_31" vertex2="screwy_target_holder_outer_front_29" vertex3="screwy_target_holder_outer_front_154" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_31" vertex2="screwy_target_holder_outer_front_154" vertex3="screwy_target_holder_outer_front_155" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_33" vertex2="screwy_target_holder_outer_front_31" vertex3="screwy_target_holder_outer_front_155" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_33" vertex2="screwy_target_holder_outer_front_155" vertex3="screwy_target_holder_outer_front_156" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_35" vertex2="screwy_target_holder_outer_front_33" vertex3="screwy_target_holder_outer_front_156" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_35" vertex2="screwy_target_holder_outer_front_156" vertex3="screwy_target_holder_outer_front_157" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_37" vertex2="screwy_target_holder_outer_front_35" vertex3="screwy_target_holder_outer_front_157" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_37" vertex2="screwy_target_holder_outer_front_157" vertex3="screwy_target_holder_outer_front_158" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_39" vertex2="screwy_target_holder_outer_front_37" vertex3="screwy_target_holder_outer_front_158" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_39" vertex2="screwy_target_holder_outer_front_158" vertex3="screwy_target_holder_outer_front_159" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_160" vertex2="screwy_target_holder_outer_front_39" vertex3="screwy_target_holder_outer_front_159" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_160" vertex2="screwy_target_holder_outer_front_159" vertex3="screwy_target_holder_outer_front_161" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_162" vertex2="screwy_target_holder_outer_front_160" vertex3="screwy_target_holder_outer_front_161" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_162" vertex2="screwy_target_holder_outer_front_161" vertex3="screwy_target_holder_outer_front_163" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_164" vertex2="screwy_target_holder_outer_front_162" vertex3="screwy_target_holder_outer_front_163" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_164" vertex2="screwy_target_holder_outer_front_163" vertex3="screwy_target_holder_outer_front_165" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_164" vertex2="screwy_target_holder_outer_front_165" vertex3="screwy_target_holder_outer_front_166" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_167" vertex2="screwy_target_holder_outer_front_164" vertex3="screwy_target_holder_outer_front_166" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_168" vertex2="screwy_target_holder_outer_front_167" vertex3="screwy_target_holder_outer_front_166" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_168" vertex2="screwy_target_holder_outer_front_166" vertex3="screwy_target_holder_outer_front_169" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_170" vertex2="screwy_target_holder_outer_front_168" vertex3="screwy_target_holder_outer_front_169" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_170" vertex2="screwy_target_holder_outer_front_169" vertex3="screwy_target_holder_outer_front_171" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_172" vertex2="screwy_target_holder_outer_front_170" vertex3="screwy_target_holder_outer_front_171" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_172" vertex2="screwy_target_holder_outer_front_171" vertex3="screwy_target_holder_outer_front_173" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_174" vertex2="screwy_target_holder_outer_front_172" vertex3="screwy_target_holder_outer_front_173" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_174" vertex2="screwy_target_holder_outer_front_173" vertex3="screwy_target_holder_outer_front_175" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_176" vertex2="screwy_target_holder_outer_front_174" vertex3="screwy_target_holder_outer_front_175" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_176" vertex2="screwy_target_holder_outer_front_175" vertex3="screwy_target_holder_outer_front_177" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_178" vertex2="screwy_target_holder_outer_front_176" vertex3="screwy_target_holder_outer_front_177" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_178" vertex2="screwy_target_holder_outer_front_177" vertex3="screwy_target_holder_outer_front_179" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_180" vertex2="screwy_target_holder_outer_front_178" vertex3="screwy_target_holder_outer_front_179" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_180" vertex2="screwy_target_holder_outer_front_179" vertex3="screwy_target_holder_outer_front_181" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_182" vertex2="screwy_target_holder_outer_front_180" vertex3="screwy_target_holder_outer_front_181" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_182" vertex2="screwy_target_holder_outer_front_181" vertex3="screwy_target_holder_outer_front_183" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_182" vertex2="screwy_target_holder_outer_front_183" vertex3="screwy_target_holder_outer_front_184" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_185" vertex2="screwy_target_holder_outer_front_182" vertex3="screwy_target_holder_outer_front_184" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_186" vertex2="screwy_target_holder_outer_front_185" vertex3="screwy_target_holder_outer_front_184" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_186" vertex2="screwy_target_holder_outer_front_184" vertex3="screwy_target_holder_outer_front_187" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_188" vertex2="screwy_target_holder_outer_front_186" vertex3="screwy_target_holder_outer_front_187" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_188" vertex2="screwy_target_holder_outer_front_187" vertex3="screwy_target_holder_outer_front_189" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_188" vertex2="screwy_target_holder_outer_front_189" vertex3="screwy_target_holder_outer_front_190" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_191" vertex2="screwy_target_holder_outer_front_188" vertex3="screwy_target_holder_outer_front_190" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_192" vertex2="screwy_target_holder_outer_front_191" vertex3="screwy_target_holder_outer_front_190" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_192" vertex2="screwy_target_holder_outer_front_190" vertex3="screwy_target_holder_outer_front_193" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_113" vertex2="screwy_target_holder_outer_front_192" vertex3="screwy_target_holder_outer_front_193" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_113" vertex2="screwy_target_holder_outer_front_193" vertex3="screwy_target_holder_outer_front_194" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_113" vertex2="screwy_target_holder_outer_front_194" vertex3="screwy_target_holder_outer_front_195" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_196" vertex2="screwy_target_holder_outer_front_113" vertex3="screwy_target_holder_outer_front_195" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_197" vertex2="screwy_target_holder_outer_front_196" vertex3="screwy_target_holder_outer_front_195" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_197" vertex2="screwy_target_holder_outer_front_195" vertex3="screwy_target_holder_outer_front_198" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_199" vertex2="screwy_target_holder_outer_front_197" vertex3="screwy_target_holder_outer_front_198" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_199" vertex2="screwy_target_holder_outer_front_198" vertex3="screwy_target_holder_outer_front_200" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_201" vertex2="screwy_target_holder_outer_front_199" vertex3="screwy_target_holder_outer_front_200" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_201" vertex2="screwy_target_holder_outer_front_200" vertex3="screwy_target_holder_outer_front_202" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_201" vertex2="screwy_target_holder_outer_front_202" vertex3="screwy_target_holder_outer_front_203" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_204" vertex2="screwy_target_holder_outer_front_201" vertex3="screwy_target_holder_outer_front_203" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_205" vertex2="screwy_target_holder_outer_front_204" vertex3="screwy_target_holder_outer_front_203" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_205" vertex2="screwy_target_holder_outer_front_203" vertex3="screwy_target_holder_outer_front_206" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_117" vertex2="screwy_target_holder_outer_front_206" vertex3="screwy_target_holder_outer_front_115" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_117" vertex2="screwy_target_holder_outer_front_205" vertex3="screwy_target_holder_outer_front_206" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_196" vertex2="screwy_target_holder_outer_front_45" vertex3="screwy_target_holder_outer_front_113" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_197" vertex2="screwy_target_holder_outer_front_45" vertex3="screwy_target_holder_outer_front_196" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_113" vertex2="screwy_target_holder_outer_front_47" vertex3="screwy_target_holder_outer_front_192" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_197" vertex2="screwy_target_holder_outer_front_44" vertex3="screwy_target_holder_outer_front_45" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_199" vertex2="screwy_target_holder_outer_front_44" vertex3="screwy_target_holder_outer_front_197" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_192" vertex2="screwy_target_holder_outer_front_49" vertex3="screwy_target_holder_outer_front_191" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_47" vertex2="screwy_target_holder_outer_front_49" vertex3="screwy_target_holder_outer_front_192" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_199" vertex2="screwy_target_holder_outer_front_42" vertex3="screwy_target_holder_outer_front_44" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_201" vertex2="screwy_target_holder_outer_front_42" vertex3="screwy_target_holder_outer_front_199" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_191" vertex2="screwy_target_holder_outer_front_50" vertex3="screwy_target_holder_outer_front_188" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_49" vertex2="screwy_target_holder_outer_front_50" vertex3="screwy_target_holder_outer_front_191" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_201" vertex2="screwy_target_holder_outer_front_40" vertex3="screwy_target_holder_outer_front_42" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_204" vertex2="screwy_target_holder_outer_front_40" vertex3="screwy_target_holder_outer_front_201" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_50" vertex2="screwy_target_holder_outer_front_52" vertex3="screwy_target_holder_outer_front_188" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_188" vertex2="screwy_target_holder_outer_front_52" vertex3="screwy_target_holder_outer_front_186" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_205" vertex2="screwy_target_holder_outer_front_93" vertex3="screwy_target_holder_outer_front_204" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_204" vertex2="screwy_target_holder_outer_front_93" vertex3="screwy_target_holder_outer_front_40" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_185" vertex2="screwy_target_holder_outer_front_56" vertex3="screwy_target_holder_outer_front_182" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_186" vertex2="screwy_target_holder_outer_front_56" vertex3="screwy_target_holder_outer_front_185" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_52" vertex2="screwy_target_holder_outer_front_56" vertex3="screwy_target_holder_outer_front_186" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_205" vertex2="screwy_target_holder_outer_front_92" vertex3="screwy_target_holder_outer_front_93" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_117" vertex2="screwy_target_holder_outer_front_92" vertex3="screwy_target_holder_outer_front_205" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_114" vertex2="screwy_target_holder_outer_front_92" vertex3="screwy_target_holder_outer_front_117" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_182" vertex2="screwy_target_holder_outer_front_57" vertex3="screwy_target_holder_outer_front_180" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_56" vertex2="screwy_target_holder_outer_front_57" vertex3="screwy_target_holder_outer_front_182" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_118" vertex2="screwy_target_holder_outer_front_207" vertex3="screwy_target_holder_outer_front_114" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_114" vertex2="screwy_target_holder_outer_front_207" vertex3="screwy_target_holder_outer_front_92" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_180" vertex2="screwy_target_holder_outer_front_59" vertex3="screwy_target_holder_outer_front_178" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_57" vertex2="screwy_target_holder_outer_front_59" vertex3="screwy_target_holder_outer_front_180" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_120" vertex2="screwy_target_holder_outer_front_208" vertex3="screwy_target_holder_outer_front_118" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_118" vertex2="screwy_target_holder_outer_front_208" vertex3="screwy_target_holder_outer_front_207" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_178" vertex2="screwy_target_holder_outer_front_61" vertex3="screwy_target_holder_outer_front_176" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_59" vertex2="screwy_target_holder_outer_front_61" vertex3="screwy_target_holder_outer_front_178" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_122" vertex2="screwy_target_holder_outer_front_209" vertex3="screwy_target_holder_outer_front_120" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_120" vertex2="screwy_target_holder_outer_front_209" vertex3="screwy_target_holder_outer_front_208" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_176" vertex2="screwy_target_holder_outer_front_63" vertex3="screwy_target_holder_outer_front_174" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_61" vertex2="screwy_target_holder_outer_front_63" vertex3="screwy_target_holder_outer_front_176" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_124" vertex2="screwy_target_holder_outer_front_210" vertex3="screwy_target_holder_outer_front_122" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_122" vertex2="screwy_target_holder_outer_front_210" vertex3="screwy_target_holder_outer_front_209" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_174" vertex2="screwy_target_holder_outer_front_64" vertex3="screwy_target_holder_outer_front_172" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_63" vertex2="screwy_target_holder_outer_front_64" vertex3="screwy_target_holder_outer_front_174" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_126" vertex2="screwy_target_holder_outer_front_211" vertex3="screwy_target_holder_outer_front_124" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_124" vertex2="screwy_target_holder_outer_front_211" vertex3="screwy_target_holder_outer_front_210" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_64" vertex2="screwy_target_holder_outer_front_66" vertex3="screwy_target_holder_outer_front_172" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_66" vertex2="screwy_target_holder_outer_front_170" vertex3="screwy_target_holder_outer_front_172" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_126" vertex2="screwy_target_holder_outer_front_128" vertex3="screwy_target_holder_outer_front_211" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_211" vertex2="screwy_target_holder_outer_front_128" vertex3="screwy_target_holder_outer_front_212" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_66" vertex2="screwy_target_holder_outer_front_168" vertex3="screwy_target_holder_outer_front_170" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_70" vertex2="screwy_target_holder_outer_front_168" vertex3="screwy_target_holder_outer_front_66" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_128" vertex2="screwy_target_holder_outer_front_130" vertex3="screwy_target_holder_outer_front_212" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_212" vertex2="screwy_target_holder_outer_front_130" vertex3="screwy_target_holder_outer_front_213" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_71" vertex2="screwy_target_holder_outer_front_167" vertex3="screwy_target_holder_outer_front_70" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_70" vertex2="screwy_target_holder_outer_front_167" vertex3="screwy_target_holder_outer_front_168" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_130" vertex2="screwy_target_holder_outer_front_132" vertex3="screwy_target_holder_outer_front_213" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_213" vertex2="screwy_target_holder_outer_front_132" vertex3="screwy_target_holder_outer_front_214" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_74" vertex2="screwy_target_holder_outer_front_164" vertex3="screwy_target_holder_outer_front_71" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_71" vertex2="screwy_target_holder_outer_front_164" vertex3="screwy_target_holder_outer_front_167" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_132" vertex2="screwy_target_holder_outer_front_135" vertex3="screwy_target_holder_outer_front_214" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_214" vertex2="screwy_target_holder_outer_front_135" vertex3="screwy_target_holder_outer_front_215" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_74" vertex2="screwy_target_holder_outer_front_162" vertex3="screwy_target_holder_outer_front_164" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_76" vertex2="screwy_target_holder_outer_front_162" vertex3="screwy_target_holder_outer_front_74" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_135" vertex2="screwy_target_holder_outer_front_136" vertex3="screwy_target_holder_outer_front_215" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_215" vertex2="screwy_target_holder_outer_front_136" vertex3="screwy_target_holder_outer_front_216" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_76" vertex2="screwy_target_holder_outer_front_160" vertex3="screwy_target_holder_outer_front_162" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_38" vertex2="screwy_target_holder_outer_front_160" vertex3="screwy_target_holder_outer_front_76" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_136" vertex2="screwy_target_holder_outer_front_139" vertex3="screwy_target_holder_outer_front_216" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_38" vertex2="screwy_target_holder_outer_front_39" vertex3="screwy_target_holder_outer_front_160" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_139" vertex2="screwy_target_holder_outer_front_140" vertex3="screwy_target_holder_outer_front_216" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_216" vertex2="screwy_target_holder_outer_front_140" vertex3="screwy_target_holder_outer_front_217" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_140" vertex2="screwy_target_holder_outer_front_142" vertex3="screwy_target_holder_outer_front_217" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_217" vertex2="screwy_target_holder_outer_front_142" vertex3="screwy_target_holder_outer_front_218" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_142" vertex2="screwy_target_holder_outer_front_145" vertex3="screwy_target_holder_outer_front_218" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_218" vertex2="screwy_target_holder_outer_front_145" vertex3="screwy_target_holder_outer_front_219" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_145" vertex2="screwy_target_holder_outer_front_147" vertex3="screwy_target_holder_outer_front_219" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_219" vertex2="screwy_target_holder_outer_front_147" vertex3="screwy_target_holder_outer_front_220" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_147" vertex2="screwy_target_holder_outer_front_149" vertex3="screwy_target_holder_outer_front_220" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_220" vertex2="screwy_target_holder_outer_front_149" vertex3="screwy_target_holder_outer_front_221" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_149" vertex2="screwy_target_holder_outer_front_150" vertex3="screwy_target_holder_outer_front_221" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_221" vertex2="screwy_target_holder_outer_front_150" vertex3="screwy_target_holder_outer_front_28" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_28" vertex2="screwy_target_holder_outer_front_153" vertex3="screwy_target_holder_outer_front_29" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_150" vertex2="screwy_target_holder_outer_front_153" vertex3="screwy_target_holder_outer_front_28" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_91" vertex2="screwy_target_holder_outer_front_27" vertex3="screwy_target_holder_outer_front_112" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_112" vertex2="screwy_target_holder_outer_front_27" vertex3="screwy_target_holder_outer_front_26" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_1" vertex2="screwy_target_holder_outer_front_222" vertex3="screwy_target_holder_outer_front_2" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_2" vertex2="screwy_target_holder_outer_front_222" vertex3="screwy_target_holder_outer_front_223" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_222" vertex2="screwy_target_holder_outer_front_224" vertex3="screwy_target_holder_outer_front_223" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_223" vertex2="screwy_target_holder_outer_front_224" vertex3="screwy_target_holder_outer_front_225" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_224" vertex2="screwy_target_holder_outer_front_226" vertex3="screwy_target_holder_outer_front_225" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_225" vertex2="screwy_target_holder_outer_front_226" vertex3="screwy_target_holder_outer_front_227" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_226" vertex2="screwy_target_holder_outer_front_77" vertex3="screwy_target_holder_outer_front_227" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_227" vertex2="screwy_target_holder_outer_front_77" vertex3="screwy_target_holder_outer_front_94" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_171" vertex2="screwy_target_holder_outer_front_99" vertex3="screwy_target_holder_outer_front_173" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_173" vertex2="screwy_target_holder_outer_front_99" vertex3="screwy_target_holder_outer_front_175" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_169" vertex2="screwy_target_holder_outer_front_98" vertex3="screwy_target_holder_outer_front_171" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_171" vertex2="screwy_target_holder_outer_front_98" vertex3="screwy_target_holder_outer_front_99" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_175" vertex2="screwy_target_holder_outer_front_100" vertex3="screwy_target_holder_outer_front_177" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_99" vertex2="screwy_target_holder_outer_front_100" vertex3="screwy_target_holder_outer_front_175" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_169" vertex2="screwy_target_holder_outer_front_97" vertex3="screwy_target_holder_outer_front_98" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_165" vertex2="screwy_target_holder_outer_front_97" vertex3="screwy_target_holder_outer_front_166" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_166" vertex2="screwy_target_holder_outer_front_97" vertex3="screwy_target_holder_outer_front_169" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_177" vertex2="screwy_target_holder_outer_front_101" vertex3="screwy_target_holder_outer_front_179" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_100" vertex2="screwy_target_holder_outer_front_101" vertex3="screwy_target_holder_outer_front_177" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_163" vertex2="screwy_target_holder_outer_front_96" vertex3="screwy_target_holder_outer_front_165" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_165" vertex2="screwy_target_holder_outer_front_96" vertex3="screwy_target_holder_outer_front_97" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_179" vertex2="screwy_target_holder_outer_front_102" vertex3="screwy_target_holder_outer_front_181" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_181" vertex2="screwy_target_holder_outer_front_102" vertex3="screwy_target_holder_outer_front_183" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_101" vertex2="screwy_target_holder_outer_front_102" vertex3="screwy_target_holder_outer_front_179" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_161" vertex2="screwy_target_holder_outer_front_95" vertex3="screwy_target_holder_outer_front_163" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_163" vertex2="screwy_target_holder_outer_front_95" vertex3="screwy_target_holder_outer_front_96" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_102" vertex2="screwy_target_holder_outer_front_103" vertex3="screwy_target_holder_outer_front_183" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_183" vertex2="screwy_target_holder_outer_front_103" vertex3="screwy_target_holder_outer_front_184" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_159" vertex2="screwy_target_holder_outer_front_94" vertex3="screwy_target_holder_outer_front_161" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_161" vertex2="screwy_target_holder_outer_front_94" vertex3="screwy_target_holder_outer_front_95" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_158" vertex2="screwy_target_holder_outer_front_94" vertex3="screwy_target_holder_outer_front_159" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_184" vertex2="screwy_target_holder_outer_front_104" vertex3="screwy_target_holder_outer_front_187" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_187" vertex2="screwy_target_holder_outer_front_104" vertex3="screwy_target_holder_outer_front_189" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_103" vertex2="screwy_target_holder_outer_front_104" vertex3="screwy_target_holder_outer_front_184" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_158" vertex2="screwy_target_holder_outer_front_227" vertex3="screwy_target_holder_outer_front_94" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_157" vertex2="screwy_target_holder_outer_front_227" vertex3="screwy_target_holder_outer_front_158" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_189" vertex2="screwy_target_holder_outer_front_105" vertex3="screwy_target_holder_outer_front_190" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_104" vertex2="screwy_target_holder_outer_front_105" vertex3="screwy_target_holder_outer_front_189" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_157" vertex2="screwy_target_holder_outer_front_225" vertex3="screwy_target_holder_outer_front_227" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_156" vertex2="screwy_target_holder_outer_front_225" vertex3="screwy_target_holder_outer_front_157" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_190" vertex2="screwy_target_holder_outer_front_106" vertex3="screwy_target_holder_outer_front_193" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_105" vertex2="screwy_target_holder_outer_front_106" vertex3="screwy_target_holder_outer_front_190" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_154" vertex2="screwy_target_holder_outer_front_223" vertex3="screwy_target_holder_outer_front_155" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_155" vertex2="screwy_target_holder_outer_front_223" vertex3="screwy_target_holder_outer_front_156" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_156" vertex2="screwy_target_holder_outer_front_223" vertex3="screwy_target_holder_outer_front_225" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_193" vertex2="screwy_target_holder_outer_front_107" vertex3="screwy_target_holder_outer_front_194" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_106" vertex2="screwy_target_holder_outer_front_107" vertex3="screwy_target_holder_outer_front_193" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_154" vertex2="screwy_target_holder_outer_front_2" vertex3="screwy_target_holder_outer_front_223" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_154" vertex2="screwy_target_holder_outer_front_152" vertex3="screwy_target_holder_outer_front_2" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_107" vertex2="screwy_target_holder_outer_front_195" vertex3="screwy_target_holder_outer_front_194" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_107" vertex2="screwy_target_holder_outer_front_108" vertex3="screwy_target_holder_outer_front_195" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_152" vertex2="screwy_target_holder_outer_front_0" vertex3="screwy_target_holder_outer_front_2" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_152" vertex2="screwy_target_holder_outer_front_151" vertex3="screwy_target_holder_outer_front_0" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_109" vertex2="screwy_target_holder_outer_front_198" vertex3="screwy_target_holder_outer_front_108" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_108" vertex2="screwy_target_holder_outer_front_198" vertex3="screwy_target_holder_outer_front_195" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_0" vertex2="screwy_target_holder_outer_front_148" vertex3="screwy_target_holder_outer_front_4" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_151" vertex2="screwy_target_holder_outer_front_148" vertex3="screwy_target_holder_outer_front_0" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_109" vertex2="screwy_target_holder_outer_front_200" vertex3="screwy_target_holder_outer_front_198" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_4" vertex2="screwy_target_holder_outer_front_146" vertex3="screwy_target_holder_outer_front_6" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_148" vertex2="screwy_target_holder_outer_front_146" vertex3="screwy_target_holder_outer_front_4" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_110" vertex2="screwy_target_holder_outer_front_202" vertex3="screwy_target_holder_outer_front_109" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_109" vertex2="screwy_target_holder_outer_front_202" vertex3="screwy_target_holder_outer_front_200" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_146" vertex2="screwy_target_holder_outer_front_144" vertex3="screwy_target_holder_outer_front_6" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_6" vertex2="screwy_target_holder_outer_front_144" vertex3="screwy_target_holder_outer_front_8" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_111" vertex2="screwy_target_holder_outer_front_203" vertex3="screwy_target_holder_outer_front_110" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_110" vertex2="screwy_target_holder_outer_front_203" vertex3="screwy_target_holder_outer_front_202" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_144" vertex2="screwy_target_holder_outer_front_143" vertex3="screwy_target_holder_outer_front_8" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_111" vertex2="screwy_target_holder_outer_front_206" vertex3="screwy_target_holder_outer_front_203" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_112" vertex2="screwy_target_holder_outer_front_206" vertex3="screwy_target_holder_outer_front_111" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_143" vertex2="screwy_target_holder_outer_front_141" vertex3="screwy_target_holder_outer_front_8" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_8" vertex2="screwy_target_holder_outer_front_141" vertex3="screwy_target_holder_outer_front_10" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_112" vertex2="screwy_target_holder_outer_front_115" vertex3="screwy_target_holder_outer_front_206" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_141" vertex2="screwy_target_holder_outer_front_138" vertex3="screwy_target_holder_outer_front_10" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_10" vertex2="screwy_target_holder_outer_front_138" vertex3="screwy_target_holder_outer_front_12" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_112" vertex2="screwy_target_holder_outer_front_116" vertex3="screwy_target_holder_outer_front_115" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_26" vertex2="screwy_target_holder_outer_front_116" vertex3="screwy_target_holder_outer_front_112" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_138" vertex2="screwy_target_holder_outer_front_137" vertex3="screwy_target_holder_outer_front_12" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_24" vertex2="screwy_target_holder_outer_front_119" vertex3="screwy_target_holder_outer_front_26" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_26" vertex2="screwy_target_holder_outer_front_119" vertex3="screwy_target_holder_outer_front_116" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_137" vertex2="screwy_target_holder_outer_front_134" vertex3="screwy_target_holder_outer_front_12" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_12" vertex2="screwy_target_holder_outer_front_134" vertex3="screwy_target_holder_outer_front_14" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_24" vertex2="screwy_target_holder_outer_front_121" vertex3="screwy_target_holder_outer_front_119" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_22" vertex2="screwy_target_holder_outer_front_121" vertex3="screwy_target_holder_outer_front_24" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_134" vertex2="screwy_target_holder_outer_front_133" vertex3="screwy_target_holder_outer_front_14" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_14" vertex2="screwy_target_holder_outer_front_133" vertex3="screwy_target_holder_outer_front_16" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_22" vertex2="screwy_target_holder_outer_front_123" vertex3="screwy_target_holder_outer_front_121" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_133" vertex2="screwy_target_holder_outer_front_131" vertex3="screwy_target_holder_outer_front_16" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_16" vertex2="screwy_target_holder_outer_front_131" vertex3="screwy_target_holder_outer_front_18" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_22" vertex2="screwy_target_holder_outer_front_125" vertex3="screwy_target_holder_outer_front_123" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_20" vertex2="screwy_target_holder_outer_front_125" vertex3="screwy_target_holder_outer_front_22" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_131" vertex2="screwy_target_holder_outer_front_129" vertex3="screwy_target_holder_outer_front_18" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_20" vertex2="screwy_target_holder_outer_front_127" vertex3="screwy_target_holder_outer_front_125" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_129" vertex2="screwy_target_holder_outer_front_127" vertex3="screwy_target_holder_outer_front_18" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_18" vertex2="screwy_target_holder_outer_front_127" vertex3="screwy_target_holder_outer_front_20" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_208" vertex2="screwy_target_holder_outer_front_228" vertex3="screwy_target_holder_outer_front_207" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_207" vertex2="screwy_target_holder_outer_front_228" vertex3="screwy_target_holder_outer_front_92" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_92" vertex2="screwy_target_holder_outer_front_228" vertex3="screwy_target_holder_outer_front_91" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_91" vertex2="screwy_target_holder_outer_front_228" vertex3="screwy_target_holder_outer_front_27" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_27" vertex2="screwy_target_holder_outer_front_228" vertex3="screwy_target_holder_outer_front_25" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_228" vertex2="screwy_target_holder_outer_front_229" vertex3="screwy_target_holder_outer_front_25" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_210" vertex2="screwy_target_holder_outer_front_229" vertex3="screwy_target_holder_outer_front_209" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_208" vertex2="screwy_target_holder_outer_front_229" vertex3="screwy_target_holder_outer_front_228" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_209" vertex2="screwy_target_holder_outer_front_229" vertex3="screwy_target_holder_outer_front_208" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_25" vertex2="screwy_target_holder_outer_front_229" vertex3="screwy_target_holder_outer_front_23" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_211" vertex2="screwy_target_holder_outer_front_230" vertex3="screwy_target_holder_outer_front_210" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_23" vertex2="screwy_target_holder_outer_front_230" vertex3="screwy_target_holder_outer_front_21" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_229" vertex2="screwy_target_holder_outer_front_230" vertex3="screwy_target_holder_outer_front_23" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_210" vertex2="screwy_target_holder_outer_front_230" vertex3="screwy_target_holder_outer_front_229" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_212" vertex2="screwy_target_holder_outer_front_231" vertex3="screwy_target_holder_outer_front_211" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_21" vertex2="screwy_target_holder_outer_front_231" vertex3="screwy_target_holder_outer_front_19" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_230" vertex2="screwy_target_holder_outer_front_231" vertex3="screwy_target_holder_outer_front_21" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_211" vertex2="screwy_target_holder_outer_front_231" vertex3="screwy_target_holder_outer_front_230" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_214" vertex2="screwy_target_holder_outer_front_232" vertex3="screwy_target_holder_outer_front_213" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_213" vertex2="screwy_target_holder_outer_front_232" vertex3="screwy_target_holder_outer_front_212" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_19" vertex2="screwy_target_holder_outer_front_232" vertex3="screwy_target_holder_outer_front_17" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_17" vertex2="screwy_target_holder_outer_front_232" vertex3="screwy_target_holder_outer_front_15" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_212" vertex2="screwy_target_holder_outer_front_232" vertex3="screwy_target_holder_outer_front_231" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_231" vertex2="screwy_target_holder_outer_front_232" vertex3="screwy_target_holder_outer_front_19" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_215" vertex2="screwy_target_holder_outer_front_233" vertex3="screwy_target_holder_outer_front_214" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_15" vertex2="screwy_target_holder_outer_front_233" vertex3="screwy_target_holder_outer_front_13" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_214" vertex2="screwy_target_holder_outer_front_233" vertex3="screwy_target_holder_outer_front_232" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_232" vertex2="screwy_target_holder_outer_front_233" vertex3="screwy_target_holder_outer_front_15" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_217" vertex2="screwy_target_holder_outer_front_234" vertex3="screwy_target_holder_outer_front_216" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_216" vertex2="screwy_target_holder_outer_front_234" vertex3="screwy_target_holder_outer_front_215" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_233" vertex2="screwy_target_holder_outer_front_234" vertex3="screwy_target_holder_outer_front_13" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_13" vertex2="screwy_target_holder_outer_front_234" vertex3="screwy_target_holder_outer_front_11" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_215" vertex2="screwy_target_holder_outer_front_234" vertex3="screwy_target_holder_outer_front_233" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_218" vertex2="screwy_target_holder_outer_front_235" vertex3="screwy_target_holder_outer_front_217" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_217" vertex2="screwy_target_holder_outer_front_235" vertex3="screwy_target_holder_outer_front_234" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_11" vertex2="screwy_target_holder_outer_front_235" vertex3="screwy_target_holder_outer_front_9" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_234" vertex2="screwy_target_holder_outer_front_235" vertex3="screwy_target_holder_outer_front_11" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_219" vertex2="screwy_target_holder_outer_front_236" vertex3="screwy_target_holder_outer_front_218" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_9" vertex2="screwy_target_holder_outer_front_236" vertex3="screwy_target_holder_outer_front_7" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_235" vertex2="screwy_target_holder_outer_front_236" vertex3="screwy_target_holder_outer_front_9" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_218" vertex2="screwy_target_holder_outer_front_236" vertex3="screwy_target_holder_outer_front_235" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_221" vertex2="screwy_target_holder_outer_front_237" vertex3="screwy_target_holder_outer_front_220" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_220" vertex2="screwy_target_holder_outer_front_237" vertex3="screwy_target_holder_outer_front_219" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_219" vertex2="screwy_target_holder_outer_front_237" vertex3="screwy_target_holder_outer_front_236" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_7" vertex2="screwy_target_holder_outer_front_237" vertex3="screwy_target_holder_outer_front_5" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_5" vertex2="screwy_target_holder_outer_front_237" vertex3="screwy_target_holder_outer_front_3" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_236" vertex2="screwy_target_holder_outer_front_237" vertex3="screwy_target_holder_outer_front_7" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_28" vertex2="screwy_target_holder_outer_front_238" vertex3="screwy_target_holder_outer_front_221" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_3" vertex2="screwy_target_holder_outer_front_238" vertex3="screwy_target_holder_outer_front_1" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_237" vertex2="screwy_target_holder_outer_front_238" vertex3="screwy_target_holder_outer_front_3" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_221" vertex2="screwy_target_holder_outer_front_238" vertex3="screwy_target_holder_outer_front_237" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_32" vertex2="screwy_target_holder_outer_front_239" vertex3="screwy_target_holder_outer_front_30" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_30" vertex2="screwy_target_holder_outer_front_239" vertex3="screwy_target_holder_outer_front_28" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_1" vertex2="screwy_target_holder_outer_front_239" vertex3="screwy_target_holder_outer_front_222" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_28" vertex2="screwy_target_holder_outer_front_239" vertex3="screwy_target_holder_outer_front_238" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_238" vertex2="screwy_target_holder_outer_front_239" vertex3="screwy_target_holder_outer_front_1" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_34" vertex2="screwy_target_holder_outer_front_240" vertex3="screwy_target_holder_outer_front_32" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_222" vertex2="screwy_target_holder_outer_front_240" vertex3="screwy_target_holder_outer_front_224" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_32" vertex2="screwy_target_holder_outer_front_240" vertex3="screwy_target_holder_outer_front_239" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_239" vertex2="screwy_target_holder_outer_front_240" vertex3="screwy_target_holder_outer_front_222" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_38" vertex2="screwy_target_holder_outer_front_241" vertex3="screwy_target_holder_outer_front_36" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_36" vertex2="screwy_target_holder_outer_front_241" vertex3="screwy_target_holder_outer_front_34" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_240" vertex2="screwy_target_holder_outer_front_241" vertex3="screwy_target_holder_outer_front_224" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_224" vertex2="screwy_target_holder_outer_front_241" vertex3="screwy_target_holder_outer_front_226" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_226" vertex2="screwy_target_holder_outer_front_241" vertex3="screwy_target_holder_outer_front_77" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_77" vertex2="screwy_target_holder_outer_front_241" vertex3="screwy_target_holder_outer_front_38" type="ABSOLUTE"/>
+      <triangular vertex1="screwy_target_holder_outer_front_34" vertex2="screwy_target_holder_outer_front_241" vertex3="screwy_target_holder_outer_front_240" type="ABSOLUTE"/>
+    </tessellated>
+  </solids>
+  <structure>
+    <volume name="LV_screwy_target_holder_outer_front">
+      <materialref ref="G4_A-150_TISSUE"/>
+      <solidref ref="screwy_target_holder_outer_front"/>
+      <auxiliary auxtype="Color" auxvalue="#80808000"/>
+    </volume>
+    <volume name="worldVOL">
+      <materialref ref="G4_AIR"/>
+      <solidref ref="WorldBox"/>
+      <physvol name="PV_LV_screwy_target_holder_outer_front">
+        <volumeref ref="LV_screwy_target_holder_outer_front"/>
+        <positionref ref="center"/>
+        <rotationref ref="identity"/>
+      </physvol>
+    </volume>
+  </structure>
+  <setup name="Default" version="1.0">
+    <world ref="LV_screwy_target_holder_outer_front"/>
+  </setup>
+</gdml>

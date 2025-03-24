@@ -1,0 +1,73 @@
+/tracking/verbose 0
+
+#Set multiplicity energy threshold
+/analysis/MultThr 50.
+
+#The Tree 
+#Storing in the tree AllEventFlag true and AllFusionEventFlag false to store all the events
+#Storing in the tree AllEventFlag false and AllFusionEventFlag true to store only the fusion events (use it only in reaction simulation)
+#Storing in the tree AllEventFlag false and AllFusionEventFlag false to store only the detected events
+/analysis/AllEventFlag false
+/analysis/AllFusionEventFlag false
+/analysis/ZintTreeFlag false
+/analysis/EpTreeFlag false
+/analysis/EgammaTreeFlag false
+/analysis/PgammaTreeFlag false
+/analysis/EdepTreeFlag false
+/analysis/BeamPosTreeFlag false
+/analysis/BeamKinETreeFlag false
+/analysis/BeamThetaTreeFlag false
+
+####BGO14Np
+/BGO14Np/BGODisp 0. 0. 0. 0. 0. 0.
+
+##### BGO14Np Target Material 
+/Materials/Layer0Type Ti14N
+/BGO14NpTarget/BGOTargetSize 3. 0.0001
+
+/Materials/TargetBacking Ta
+/BGO14NpTarget/TargetBackingThickness 0.25
+
+####TargetChamber
+/TargetChamber16op/TargetChamber16opType Al
+
+####DetectorConstruction
+/DetectorConstruction/BGO14NpPos 0 0 0 cm
+
+# Nuclear reaction with R, radioactive source with S 
+/DetectorConstruction/Physics R
+#/DetectorConstruction/Physics S
+#
+# Source holder type A: 60Co, 137Cs; B: 133Ba
+#/DetectorConstruction/SourceHolder A
+#
+#/DetectorConstruction/SourcePos 0 0 0 mm
+#
+/DetectorConstruction/MaxStep 0.01 um
+
+
+/run/initialize
+
+
+####GPS 
+/gps/particle geantino
+/gps/ene/mono 150 keV
+/gps/direction 0 0 1
+/gps/pos/type Point
+/gps/pos/centre 0 0 -10 mm
+
+#/vis/open Qt3D
+/vis/open OGL
+/vis/scene/create
+/vis/scene/add/volume
+/vis/scene/add/trajectories
+/vis/scene/add/hits
+/vis/scene/endOfEventAction accumulate
+/vis/sceneHandler/attach
+/vis/viewer/refresh
+/tracking/storeTrajectory 1
+# comment next line to have geometry and hits visualized
+#/vis/viewer/flush
+/run/beamOn 1
+
+

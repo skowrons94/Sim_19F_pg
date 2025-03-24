@@ -1,0 +1,125 @@
+/tracking/verbose 0
+
+############ 19F + p macro Commands list############
+
+####Analysis Manager
+# Set first gamma for correlation plot in MeV
+/analysis/Gamma1 1.173
+# Set second gamma for correlation plot in MeV
+/analysis/Gamma2 1.3325
+
+# Set fragment in capture process for plot
+/analysis/CapFragIonA 12
+/analysis/CapFragIonZ 6
+# Set first fragment for plot
+/analysis/FragIonA1 11
+/analysis/FragIonZ1 5
+# Set second fragment for plot
+/analysis/FragIonA2 1
+/analysis/FragIonZ2 1
+
+# Set multiplicity energy threshold
+/analysis/MultThr 50.
+
+# TTree options
+/analysis/AllEventFlag true
+/analysis/AllFusionEventFlag false
+/analysis/ZintTreeFlag true
+/analysis/EpTreeFlag true
+/analysis/EgammaTreeFlag true
+/analysis/PgammaTreeFlag true
+/analysis/EdepTreeFlag true
+/analysis/BeamPosTreeFlag true
+/analysis/BeamKinETreeFlag true
+/analysis/BeamThetaTreeFlag true
+
+#### BGO
+/BGO14Np/BGODisp 0. 0. 0. 0. 0. 0.
+
+#### Target Material 
+# Set target material (TaF5, CaF2, FeF, 10B11B available)
+/Materials/Layer0Type 10B11B
+# Set the target R, z sizes in mm
+/BGO14NpTarget/BGOTargetSize 18. 0.0001
+
+#### TargetChamber
+# Set the target chamber material (Al and Steel are available)
+/TargetChamber16op/TargetChamber16opType Al
+
+#### Target backing
+/Materials/TargetBacking Ta
+/BGO14NpTarget/TargetBackingThickness 0.25
+
+#### DetectorConstruction
+/DetectorConstruction/BGO14NpPos 0 0 0 cm
+
+# Nuclear reaction with R, radioactive source with S 
+/DetectorConstruction/Physics R
+#/DetectorConstruction/Physics S
+
+# Source holder type A: 60Co, 137Cs; B:	133Ba
+#/DetectorConstruction/SourceHolder A
+#/DetectorConstruction/SourcePos 0 0 0 mm
+/DetectorConstruction/MaxStep 0.01 um
+
+#### EventAction
+# Noise level to set the resolution (eV) for BGO
+/EventAction/NoiseBGO14Np 0.
+
+#### HadronPhysicsList 
+# (In)activate inelastic reaction
+/PhysicsList/HadronPhysicsFlag true
+/HadronPhysicsList/InelFlagProt false
+/HadronPhysicsList/HPinelFlagProt false
+/HadronPhysicsList/InelFlagDeut false
+/HadronPhysicsList/InelFlagTrit false
+/HadronPhysicsList/InelFlagHe3 false
+/HadronPhysicsList/InelFlagAlph false
+
+# (In)activate radiative capture reaction for charged particles
+/HadronPhysicsList/PartCapFlag true
+
+# Set resonant or non-resonant radiative capture for charged particles
+/HadronPhysicsList/PartCapType non-resonant
+
+####PhysicsList 
+# Set correlation of gammas
+/process/had/deex/correlatedGamma true
+# Set electromagnetic physics (standard, standardNR, lowEP)
+/PhysicsList/EmPhysics standard
+
+#### Process 1
+#/process/had/verbose 2
+# Loss fluctiation, Lateral Displacement, Multiple scattering 
+#/process/eLoss/fluct 0
+#/process/msc/LateralDisplacement 0
+#/process/activate msc proton
+
+#### Initialization
+/run/initialize
+
+#### Process 2 
+/process/had/rdm/verbose 0
+/process/had/rdm/allVolumes
+/process/had/rdm/thresholdForVeryLongDecayTime 1.0e+60 year
+#/process/had/rdm/noVolumes
+/process/had/rdm/nucleusLimits 14 14 7 7
+
+#### GPS 
+/gps/particle proton
+/gps/pos/type Beam
+/gps/pos/centre 0 0 -10 mm
+/gps/direction 0 0 1
+/gps/ene/mono 250. keV
+/gps/pos/sigma_r 5. mm
+
+#### OTHERS
+#/geometry/test/run
+#/random/setSeeds 5000 1
+
+#### Output
+/analysis/filename /workdir/rootfiles/SimLUNA.root
+
+#### Run
+/run/printProgress 1000
+/run/beamOn 100000
