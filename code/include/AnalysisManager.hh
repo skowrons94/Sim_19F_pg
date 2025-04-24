@@ -114,6 +114,14 @@ private:
 
   TTree *tree1;
 
+  // EventAction
+  TH2D *hKinvsAnglePart1;
+  TH2D *hKinvsAnglePart2;
+  TH2D *hKinvsAnglePart3;
+  TH2D *hGammavsAnglePart1;
+  TH2D *hGammavsAnglePart2;
+  TH2D *hGammavsAnglePart3;
+
   AnalysisMessenger* analysisMessenger;
 
 };

@@ -150,6 +150,20 @@ void Materials::CreateMaterials()
     
   }
   
+  if(Layer0Type == "Ti15N") {
+    // 14N element
+    a = 15.00307400478*g/mole;
+    G4Isotope* isN15 = new G4Isotope(name="isN15", iz=7, ia=15, a);
+    G4Element* elN15 = new G4Element(name="elN15",symbol="N15",nElem=1);
+    elN15->AddIsotope(isN15, abundance=100.*perCent);
+    
+    // 14NTi material
+    density = 5.22*g/cm3;
+    G4Material* TargetLayer0Mat = new G4Material(name="TargetMat", density, nComponents=2, kStateSolid);
+    TargetLayer0Mat->AddElement(elN15, nAtoms=1);
+    TargetLayer0Mat->AddElement(elTi, nAtoms=1);	
+  }
+
   if(Layer0Type == "Ti14N") {
     // 14N element
     a = 14.00307400478*g/mole;
@@ -162,6 +176,19 @@ void Materials::CreateMaterials()
     G4Material* TargetLayer0Mat = new G4Material(name="TargetMat", density, nComponents=2, kStateSolid);
     TargetLayer0Mat->AddElement(elN14, nAtoms=1);
     TargetLayer0Mat->AddElement(elTi, nAtoms=1);	
+  }
+
+  if(Layer0Type == "27Al") {
+    // 27Al element
+    a = 27.00307400478*g/mole;
+    G4Isotope* isAl27 = new G4Isotope(name="isAl27", iz=13, ia=27, a);
+    G4Element* elAl27 = new G4Element(name="elv",symbol="Al27",nElem=1);
+    elAl27->AddIsotope(isAl27, abundance=100.*perCent);
+    
+    // 27Al material
+    density = 2.699*g/cm3;
+    G4Material* TargetLayer0Mat = new G4Material(name="TargetMat", density, nComponents=1, kStateSolid);
+    TargetLayer0Mat->AddElement(elAl27, nAtoms=1);
   }
 
   if(Layer0Type == "TaF5") {

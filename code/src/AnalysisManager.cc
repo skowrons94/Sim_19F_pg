@@ -88,7 +88,6 @@ void AnalysisManager::FillHistogramsAndTree()
  else if(!fAllEventFlag &&  fAllFusionEventFlag && fFusionEvent) tree1->Fill();
  else if(!fAllEventFlag && !fAllFusionEventFlag && (totE_BGO14Np[0]!=0 || totE_BGO14Np[1]!=0 || totE_BGO14Np[2]!=0 || totE_BGO14Np[3]!=0 || totE_BGO14Np[4]!=0 || totE_BGO14Np[5]!=0)) tree1->Fill();
 
-  //G4cout << "MomCapGamma: " << MomCapGamma[0] <<  " MomCapIon: " << MomCapIon[0] << G4endl;
 }
 
 void AnalysisManager::FillhPrimaries(G4ThreeVector fPos,G4double fkinE,G4ThreeVector fmom)
@@ -97,7 +96,7 @@ void AnalysisManager::FillhPrimaries(G4ThreeVector fPos,G4double fkinE,G4ThreeVe
   BeamY.push_back(fPos.y());
   BeamZ.push_back(fPos.z());
   BeamKinE.push_back(fkinE);
-  BeamTheta.push_back(fmom.theta()/deg);  
+  BeamTheta.push_back(fmom.theta()/deg);
 }
 
 void AnalysisManager::FillhSecondaries(G4int fNofSec, G4double *fSecKinE, G4ThreeVector *fSecMom, G4ParticleDefinition **fSecPartDef, G4double *fParKinE, G4ThreeVector *fParMom, G4ThreeVector *fParPos, G4ParticleDefinition **fParPartDef, G4int *fParTrackID)
@@ -116,46 +115,45 @@ void AnalysisManager::FillhSecondaries(G4int fNofSec, G4double *fSecKinE, G4Thre
   for(int i=0;i<fNofSec;i++) {
     //G4cout << fSecPartDef[i]->GetParticleName() << "  " << fParPartDef[i]->GetAtomicMass() << "  " << fParPartDef[i]->GetAtomicNumber() << "  " << fSecKinE[i]/keV << "  " << fParPos[i].z() << "  " << fParPartDef[i]->GetParticleName() << "  " << fParTrackID[i] << G4endl;
 
-    if(fSecPartDef[i]->GetAtomicMass() == 15 && fSecPartDef[i]->GetAtomicNumber() == 8 && fParTrackID[i] == 1) {
+    if(fSecPartDef[i]->GetAtomicMass() == 16 && fSecPartDef[i]->GetAtomicNumber() == 8) {
       //G4cout << fSecPartDef[i]->GetParticleName() << "  " << fParPartDef[i]->GetAtomicMass() << "  " << fParPartDef[i]->GetAtomicNumber() << "  " << fParKinE[i]/keV << "  " << fParPos[i].z() << "  " << fParPartDef[i]->GetParticleName() << "  " << fParTrackID[i] << "  " << fOrigTrackID[i] << "  " << fLevelEnergy[i] << "  " << G4endl;
        Z_energy.push_back(fParKinE[i]/keV);
     }
 
     if(fSecPartDef[i] == G4Gamma::Gamma()) {
 
-      if(fParPartDef[i]->GetAtomicMass() == 15 && fParPartDef[i]->GetAtomicNumber() == 8) {
-	  	Z_interaction.push_back(fParPos[i].z());
-	  	GammaKinEneRes.push_back(fSecKinE[i]/keV);
-	  	GammaMomx.push_back(fSecMom[i].x()/keV);
-	  	GammaMomy.push_back(fSecMom[i].y()/keV);
-	  	GammaMomz.push_back(fSecMom[i].z()/keV);
-	  	fFusionEvent=true;
+      if(fParPartDef[i]->GetAtomicMass() == FragIonA1 && fParPartDef[i]->GetAtomicNumber() == FragIonZ1) {
+        hGammavsAnglePart1->Fill(fSecMom[i].theta()/deg,fSecKinE[i]/keV);
     	}
-    	if(fParPartDef[i] == G4Proton::Proton() && fParTrackID[i] == 1) {
-	  	GammaKinEneDC.push_back(fSecKinE[i]/keV);
-	  	fFusionEvent=true;
+      if(fParPartDef[i]->GetAtomicMass() == FragIonA2 && fParPartDef[i]->GetAtomicNumber() == FragIonZ2) {
+        hGammavsAnglePart2->Fill(fSecMom[i].theta()/deg,fSecKinE[i]/keV);
     	}
-      if(fSecKinE[i] > Gamma1-0.01 && fSecKinE[i] < Gamma1+0.01) MomSrcGamma[0] = fSecMom[i];
-      else if(fSecKinE[i] > Gamma2-0.01 && fSecKinE[i] < Gamma2+0.01) MomSrcGamma[1] = fSecMom[i];
+      if(fParPartDef[i]->GetAtomicMass() == CapFragIonA && fParPartDef[i]->GetAtomicNumber() == CapFragIonZ) {
+        hGammavsAnglePart3->Fill(fSecMom[i].theta()/deg,fSecKinE[i]/keV);
+    	}
 
       MomCapGamma[NofGamma] = fSecMom[i];
       NofGamma++;
     }
     else if(fSecPartDef[i]->GetAtomicMass()>0 && fSecPartDef[i]->GetAtomicNumber()>0) {
+      //std::cout << "Secondary: " << fSecPartDef[i]->GetParticleName() << "  " << fSecPartDef[i]->GetAtomicMass() << "  " << fSecPartDef[i]->GetAtomicNumber() << "  " << fSecKinE[i]/keV << "  " << fSecMom[i].z() << G4endl;
       if(fSecPartDef[i]->GetAtomicMass() == FragIonA1 && fSecPartDef[i]->GetAtomicNumber() == FragIonZ1) {
-	MomIon[0] = fSecMom[i];
-	DefIon[0] = fSecPartDef[i];
-	//G4cout << "MomIon1: " << MomIon[0] << G4endl;
+        MomIon[0] = fSecMom[i];
+        DefIon[0] = fSecPartDef[i];
+        hKinvsAnglePart1->Fill(fSecMom[i].theta()/deg,fSecKinE[i]/keV);
+	      //G4cout << "MomIon1: " << MomIon[0] << G4endl;
       }
       else if(fSecPartDef[i]->GetAtomicMass() == FragIonA2 && fSecPartDef[i]->GetAtomicNumber() == FragIonZ2) {
-	MomIon[1] = fSecMom[i];
-	DefIon[1] = fSecPartDef[i];
-	//G4cout << "MomIon2: " << MomIon[1] << G4endl;
+        MomIon[1] = fSecMom[i];
+        DefIon[1] = fSecPartDef[i];
+        hKinvsAnglePart2->Fill(fSecMom[i].theta()/deg,fSecKinE[i]/keV);
+        //G4cout << "MomIon2: " << MomIon[1] << G4endl;
       }
       else if(fSecPartDef[i]->GetAtomicMass() == CapFragIonA && fSecPartDef[i]->GetAtomicNumber() == CapFragIonZ) {
-	MomCapIon[0] = fSecMom[i];
-	DefCapIon[0] = fSecPartDef[i];
-	//G4cout << "MomIon2: " << MomIon[1] << G4endl;
+        MomCapIon[0] = fSecMom[i];
+        DefCapIon[0] = fSecPartDef[i];
+        hKinvsAnglePart3->Fill(fSecMom[i].theta()/deg,fSecKinE[i]/keV);
+        //G4cout << "MomIon2: " << MomIon[1] << G4endl;
       }
       NofIon++;
     }
@@ -175,7 +173,7 @@ void AnalysisManager::BeginOfRun()
     	tree1->Branch("EgammaRes", &GammaKinEneRes);
     	tree1->Branch("EgammaDC", &GammaKinEneDC);
 	} 
-     if(fPgammaTreeFlag){
+  if(fPgammaTreeFlag){
    tree1->Branch("Pgx", &GammaMomx); 
    tree1->Branch("Pgy", &GammaMomy); 
    tree1->Branch("Pgz", &GammaMomz); 
@@ -188,6 +186,15 @@ void AnalysisManager::BeginOfRun()
 	if(fBeamKinETreeFlag) tree1->Branch("BeamKinE", &BeamKinE);
 	if(fBeamThetaTreeFlag) tree1->Branch("BeamTheta", &BeamTheta);
 	tree1->Branch("Multiplicity", &mult);
+
+  hKinvsAnglePart1 = new TH2D("KinPart1vsAnglePart1","",360,0,180,5000,0,5000);
+  hKinvsAnglePart2 = new TH2D("KinPart2vsAnglePart2","",360,0,180,5000,0,5000);
+  hKinvsAnglePart3 = new TH2D("KinPart3vsAnglePart3","",360,0,180,5000,0,5000);
+
+  hGammavsAnglePart1 = new TH2D("GammavsAnglePart1","",360,0,180,2000,0,20000);
+  hGammavsAnglePart2 = new TH2D("GammavsAnglePart2","",360,0,180,2000,0,20000);
+  hGammavsAnglePart3 = new TH2D("GammavsAnglePart3","",360,0,180,2000,0,20000);
+
 }
 
 void AnalysisManager::EndOfRun()

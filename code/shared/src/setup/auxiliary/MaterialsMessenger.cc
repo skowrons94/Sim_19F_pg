@@ -22,7 +22,7 @@ MaterialsMessenger::MaterialsMessenger(Materials* M):materials(M)
   Layer0TypeCmd = new G4UIcmdWithAString("/Materials/Layer0Type",this);
   Layer0TypeCmd->SetGuidance("Input the BGO Target Layer 0 type of 16Op reaction. ");
   Layer0TypeCmd->SetParameterName("Layer0Type",true,true);
-  Layer0TypeCmd->SetCandidates("TiN Ti14N 14N 10B Ta2O165 MixB 12C 9Be 10B11B TaF5 CaF2 FeF3");
+  Layer0TypeCmd->SetCandidates("TiN Ti14N Ti15N 14N 10B 27Al Ta2O165 MixB 12C 9Be 10B11B TaF5 CaF2 FeF3");
   Layer0TypeCmd->SetDefaultValue("Ta2O165");
 
   TargetBackingCmd = new G4UIcmdWithAString("/Materials/TargetBacking",this);

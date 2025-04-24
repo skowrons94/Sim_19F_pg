@@ -3,23 +3,27 @@
 ############ 19F + p macro Commands list############
 
 ####Analysis Manager
+# Set first gamma for correlation plot in MeV
+/analysis/Gamma1 1.173
+# Set second gamma for correlation plot in MeV
+/analysis/Gamma2 1.3325
 
 # Set fragment in capture process for plot
-/analysis/CapFragIonA 1
-/analysis/CapFragIonZ 1
+/analysis/CapFragIonA 15
+/analysis/CapFragIonZ 8
 # Set first fragment for plot
-/analysis/FragIonA1 16
-/analysis/FragIonZ1 8
+/analysis/FragIonA1 14
+/analysis/FragIonZ1 7
 # Set second fragment for plot
-/analysis/FragIonA2 4
-/analysis/FragIonZ2 2
+/analysis/FragIonA2 1
+/analysis/FragIonZ2 1
 
 # Set multiplicity energy threshold
 /analysis/MultThr 50.
 
 # TTree options
 /analysis/AllEventFlag true
-/analysis/AllFusionEventFlag true
+/analysis/AllFusionEventFlag false
 /analysis/ZintTreeFlag true
 /analysis/EpTreeFlag true
 /analysis/EgammaTreeFlag true
@@ -34,7 +38,7 @@
 
 #### Target Material 
 # Set target material (TaF5, CaF2, FeF available)
-/Materials/Layer0Type TaF5
+/Materials/Layer0Type Ti14N
 # Set the target R, z sizes in mm
 /BGO14NpTarget/BGOTargetSize 18. 0.0001
 
@@ -65,23 +69,23 @@
 #### HadronPhysicsList 
 # (In)activate inelastic reaction
 /PhysicsList/HadronPhysicsFlag true
-/HadronPhysicsList/InelFlagProt true
-/HadronPhysicsList/HPinelFlagProt true
+/HadronPhysicsList/InelFlagProt false
+/HadronPhysicsList/HPinelFlagProt false
 /HadronPhysicsList/InelFlagDeut false
 /HadronPhysicsList/InelFlagTrit false
 /HadronPhysicsList/InelFlagHe3 false
 /HadronPhysicsList/InelFlagAlph false
-/HadronPhysicsList/HPinelFlagAlph false
 
 # (In)activate radiative capture reaction for charged particles
-/HadronPhysicsList/PartCapFlag false
+/HadronPhysicsList/PartCapFlag true
 
 # Set resonant or non-resonant radiative capture for charged particles
-/HadronPhysicsList/PartCapType resonant
+#/HadronPhysicsList/PartCapType resonant
+/HadronPhysicsList/PartCapType non-resonant
 
 ####PhysicsList 
 # Set correlation of gammas
-/process/had/deex/correlatedGamma false
+/process/had/deex/correlatedGamma true
 # Set electromagnetic physics (standard, standardNR, lowEP)
 /PhysicsList/EmPhysics standard
 
@@ -100,14 +104,14 @@
 /process/had/rdm/allVolumes
 /process/had/rdm/thresholdForVeryLongDecayTime 1.0e+60 year
 #/process/had/rdm/noVolumes
-/process/had/rdm/nucleusLimits 14 14 7 7
+#/process/had/rdm/nucleusLimits 14 14 7 7
 
 #### GPS 
 /gps/particle proton
 /gps/pos/type Beam
 /gps/pos/centre 0 0 -10 mm
 /gps/direction 0 0 1
-/gps/ene/mono 250. keV
+/gps/ene/mono 286. keV
 /gps/pos/sigma_r 5. mm
 
 #### OTHERS
@@ -118,5 +122,5 @@
 /analysis/filename /workdir/rootfiles/SimLUNA.root
 
 #### Run
-/run/printProgress 10000
-/run/beamOn 1000000
+/run/printProgress 1000
+/run/beamOn 10000

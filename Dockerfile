@@ -8,8 +8,7 @@ RUN apt-get install -y wget git dpkg-dev cmake g++ \
     libmysqlclient-dev libfftw3-dev libcfitsio-dev \
     graphviz-dev libavahi-compat-libdnssd-dev \
     libldap2-dev python3-dev libxml2-dev libkrb5-dev \
-    libgsl0-dev libxerces-c-dev qtbase5-dev qt5-qmake \
-    emacs vim nano 
+    libgsl0-dev libxerces-c-dev qtbase5-dev qt5-qmake
 
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 
@@ -50,7 +49,7 @@ RUN echo "source /usr/local/geant4/bin/geant4.sh" >> ~/.bashrc &&\
     echo "export G4PARTICLEHPDATA=/data/G4TENDL1.4" >> ~/.bashrc &&\
     echo "export G4PARTICLEXSDATA=/data/G4PARTICLEXS4.0" >> ~/.bashrc &&\
     echo "export G4LEVELGAMMADATA=/data/PhotonEvaporation5.7" >> ~/.bashrc &&\
-    echo "export G4RADIOACTIVEDATA=/data/RadioactiveDecay5.6" >> ~/.bashrc &&\
+    echo "export G4RADIOACTIVEDATA=/data/RadioactiveDecay5.6" >> ~/.bashrc
 
 # Copy SimLUNA
 COPY code/ /workdir/code/
